@@ -1,0 +1,50 @@
+{
+    "General Information": {
+        "Student Honor Pledge": ["https://studentconduct.umd.edu/home/current-students/honor-pledge", 2],
+        "Web Accessibility": ["https://umd.edu/web-accessibility", 3],
+        "Resident Life": ["http://www.resnet.umd.edu/", 1],
+        "Parent Access": ["https://www.registrar.umd.edu/parents/", 0]
+    },
+
+    "Cost and Budgeting": {
+        "Billing": ["https://billpay.umd.edu/", 0],
+        "Dining": ["http://dining.umd.edu/", 1],
+        "Financial Aid": ["http://www.financialaid.umd.edu/", 2]
+    },
+
+    "Campus Services": {
+        "Counseling Center": ["https://counseling.umd.edu/", 0],
+        "Dining": ["http://dining.umd.edu/", 1],
+        "Health Center": ["http://www.health.umd.edu/", 2],
+        "Tutoring Services": ["http://tutoring.umd.edu/", 4],
+        "Transportation Services": ["http://www.dots.umd.edu/", 3]
+    },
+
+    "Enrollment": {
+        "Transfer Credits": ["https://transfercredit.umd.edu/", 1],
+        "Graduate Admissions": ["http://www.gradschool.umd.edu/", 3],
+        "Undergraduate Admissions": ["http://www.admissions.umd.edu/", 2],
+        "Extended Studies": ["http://www.oes.umd.edu/", 6],
+        "Resident Life": ["http://www.resnet.umd.edu/", 4],
+        "Student Success": ["https://studentsuccess.umd.edu/", 5]
+    },
+
+    "Student Records": {
+        "Degree Audit": ["https://uachieve.umd.edu/", 0],
+        "Former Students": ["https://financialaid.umd.edu/", 9000],
+        "ID Card": ["https://idcard.umd.edu/", 9001],
+        "Register to Vote": ["https://umd.turbovote.org/?r=Testudo2018", 9002],
+        "Transcripts": ["https://registrar.umd.edu/transcripts.html", 1],
+        "Diploma Remake": ["https://app.testudo.umd.edu/diplomaremake/", 8999],
+        "GPA Calculator": ["https://www.testudo.umd.edu/gpa/index.html", 2]
+    },
+
+    "Course registration, Campus Map, and Calendar":{
+        "University Calendar & Deadlines": ["https://registrar.umd.edu/calendar.html", 3],
+        "Final Exam Information": ["https://registrar.umd.edu/current/registration/exam.html", 2],
+        "Final Exams": ["https://app.testudo.umd.edu/soc/exam/", 1],
+        "Summer Session": ["https://summer.umd.edu/", 4],
+        "Winter Session": ["https://winter.umd.edu/", 5],
+        "Campus Map": ["http://map.umd.edu/map/", 0]
+    }
+}
