@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
     <title>Home | University of Maryland</title>
-    <link rel="stylesheet" href="./style.css">
-    <script type="text/javascript" src="path-to-javascript-file.js"></script>
+    <link rel="stylesheet" href="resources/stylesheets/index.css">
+    <link rel="stylesheet" href="resources/stylesheets/index-hero.css">
+    <script type="text/javascript" src="resources/scripts/index.js"></script>
 </head>
 
 <body>
     <nav id="global-nav">
         <!-- school logo -->
         <div id="nav-logo">
-            <img src="favicon.ico" alt="">
+            <img src="resources/images/favicon.ico" alt="">
             <h1>Office of the Registrar</h1>
         </div>
 
@@ -33,7 +34,7 @@
         </div>
     </nav>
 
-    <img id="register-now-img" src="umd-2.jpg" alt="">
+    <img id="register-now-img" src="resources/images/umd-2.jpg" alt="">
 
     <!-- hero -->
     <section id="hero">
@@ -42,11 +43,15 @@
             <p>I can fix that.</p>
         </div>
         <section id="hero-sections">
-            <div>
-                <button>
-                    <h1>General Information</h1>
-                    <p></p>
-                </button>
+            <div class="hero-section">
+                <label class="checkbox-label" for="general-info">
+                    <!-- header -->
+                    <span>General Information</span>
+                    <!-- description -->
+                    <span></span>
+                </label>
+                <input type="checkbox" id="general-info" class="toggle">
+
                 <div>
                     <h1>Explore this section</h1>
                     <ul>
@@ -66,11 +71,15 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <button>
-                    <h1>Cost and Budgeting</h1>
-                    <p></p>
-                </button>
+            <div class="hero-section">
+                <label class="checkbox-label" for="cost-and-budgeting">
+                    <!-- header -->
+                    <span>Cost and Budgeting</span>
+                    <!-- description -->
+                    <span></span>
+                </label>
+                <input type="checkbox" id="cost-and-budgeting"class="toggle">
+
                 <div>
                     <h1>Explore this section</h1>
                     <ul>
@@ -86,11 +95,15 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <button>
-                    <h1>Campus Services</h1>
-                    <p></p>
-                </button>
+            <div class="hero-section">
+                <label class="checkbox-label" for="campus-services">
+                    <!-- header -->
+                    <span>Campus Services</span>
+                    <!-- description -->
+                    <span></span>
+                </label>
+                <input type="checkbox" id="campus-services"class="toggle">
+
                 <div>
                     <h1>Explore this section</h1>
                     <ul>
@@ -112,11 +125,15 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <button>
-                    <h1>Enrollment</h1>
-                    <p></p>
-                </button>
+            <div class="hero-section">
+                <label class="checkbox-label" for="enrollment">
+                    <!-- header -->
+                    <span>Enrollment</span>
+                    <!-- description -->
+                    <span></span>
+                </label>
+                <input type="checkbox" id="enrollment"class="toggle">
+
                 <div>
                     <h1>Explore this section</h1>
                     <ul>
@@ -141,11 +158,15 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <button>
-                    <h1>Student Records</h1>
-                    <p></p>
-                </button>
+            <div class="hero-section">
+                <label class="checkbox-label" for="student-records">
+                    <!-- header -->
+                    <span>Student Records</span>
+                    <!-- description -->
+                    <span></span>
+                </label>
+                <input type="checkbox" id="student-records" class="toggle">
+
                 <div>
                     <h1>Explore this section</h1>
                     <ul>
@@ -173,11 +194,15 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <button>
-                    <h1>Course registration, Campus Map, and Calendar</h1>
-                    <p></p>
-                </button>
+            <div class="hero-section">
+                <label class="checkbox-label" for="course-regis">
+                    <!-- header -->
+                    <span>Course Registration, Campus Map, and Calendar</span>
+                    <!-- description -->
+                    <span></span>
+                </label>
+                <input type="checkbox" id="course-regis" class="toggle">
+
                 <div>
                     <h1>Explore this section</h1>
                     <ul>
@@ -222,7 +247,7 @@
 
     <h3>Contact:</h3>
     <p>
-        p. 301-314-8240<br>f. 301-314-9568<br>registrar-help@umd.edu
+        p. 301-314-8240<br>f. 301-314-9568<br><a href="mailto:registrar-help@umd.edu">registrar-help@umd.edu</a>
     </p>
 </footer>
 

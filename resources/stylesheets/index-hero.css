@@ -1,0 +1,68 @@
+#hero {
+    margin: 0 auto;
+    width: auto;
+    max-width: 1600px;
+    padding: 0 25px;
+}
+
+#hero-head {
+    margin-top: 1rem;
+}
+
+#hero-head > h1 {
+    color: darkred;
+    font-size: 1.75rem;
+}
+
+#hero-head > p {
+    font-size: 1.125rem;
+    color: rgba(0,0,0,.75);
+}
+
+ 
+#hero-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-section {
+    width: 100%;
+    margin-top: 1rem;
+    border: 1px solid rgba(0,0,0,.25)
+}
+
+.hero-section ul {
+    list-style: none;
+}
+
+.checkbox-label {
+    cursor: pointer;
+    padding: 1rem;
+    display: block;
+}
+
+.checkbox-label > span {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* we don't want checkboxes visible */
+.toggle {
+    display: none;
+}
+
+/* be default, show more is hidden */
+.hero-section > div {
+    overflow: hidden;
+    max-height: 0;
+    display: block;
+    padding: 0 1rem;
+    transition: padding 300ms ease-out, max-height 350ms ease-out;
+}
+
+/* when clicked, show more is visible */
+.toggle:checked ~ div {
+    padding: 1rem;
+    padding-top: 0;
+    max-height: 15rem;
+}
