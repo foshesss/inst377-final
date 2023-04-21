@@ -10,7 +10,7 @@
 }
 
 #hero-head > h1 {
-    color: darkred;
+    color: var(--dark-red);
     font-size: 1.75rem;
 }
 

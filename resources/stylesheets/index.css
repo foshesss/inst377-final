@@ -18,7 +18,7 @@ button:hover {
 }
 
 #global-nav {
-    color: darkred;
+    color: var(--dark-red);
 }
 
 #global-nav > div {
@@ -50,15 +50,32 @@ button:hover {
     height: 100%;
 }
 
+#register-container {
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-red);
+    color: white;
+}
+
 #register-now-img {
     width: 100%;
-    max-width: 800px;
+    max-height: 500px;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+#register-now-img, #register-now-info {
+    vertical-align: top;
+}
+
+#register-now-info {
+    padding: 1rem;
 }
 
 footer {
     margin-top: 2rem;
     padding: 2rem;
-    background: darkred;
+    background: var(--dark-red);
     color: white;
 }
 
@@ -66,4 +83,21 @@ footer a {
     color: white;
 }
 
-/* herp derp */
+/* larger screenz */
+@media screen and (min-width: 768px) {
+    #register-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #register-now-img {
+        width: 65%;
+        max-height: 500px;
+        min-height: 300px;
+        object-fit: cover;
+    }
+
+    #register-now-info {
+        padding: 2rem;
+    }
+}
