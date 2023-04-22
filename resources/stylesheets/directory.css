@@ -1,35 +1,21 @@
-#hero {
-    margin: 0 auto;
-    width: auto;
-    max-width: 1600px;
-    padding: 0 25px;
+
+
+#directory {
+    padding: 4rem 1rem;
+    background: rgba(250,250,250);
 }
 
-#hero-head {
-    margin-top: 1rem;
-}
+#directory-head {
 
-#hero-head > h1 {
-    color: var(--black);
-    font-size: 1.75rem;
-}
-
-#hero-head > p {
-    font-size: 1.125rem;
-    color: rgba(0,0,0,.75);
-}
-
- 
-#hero-sections {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .hero-section {
     width: 100%;
     margin-top: 1rem;
     border: 1px solid rgba(0,0,0,.25);
+    border-radius: 5px;
     align-self: flex-start;
+    background: white;
 }
 
 .hero-section ul {
@@ -72,18 +58,4 @@
     padding: 1rem;
     padding-top: 0;
     max-height: 15rem;
-}
-
-/* larger screenz */
-@media screen and (min-width: 768px) {
-    #hero {
-        margin: 2.5rem 0;
-        margin-bottom: 4rem;
-    }
-    
-    .hero-section {
-        width: calc(50% - 2rem);
-        margin-right: 1rem;
-        margin-top: 1rem;
-    }
 }

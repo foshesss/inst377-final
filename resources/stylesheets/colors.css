@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 :root {
     --red: #E74646;
     --light-red: #FA9884;
-    --black: #4D4D4D;
+    --grey: #4D4D4D;
+    --black: rgba(50,50,50);
     --dark-red: #B73E3E;
+    --white: rgba(249,249,249);
+
+    --light-red-2: #FF8A80;
+    --light-red-3: #FFAAA6;
+    --pink: #FFD1DC;
+    --bubblegum: #ffc1cc;
+    --light-red-4: #fff7f6;
+    --light-red-5: #ffcccb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
