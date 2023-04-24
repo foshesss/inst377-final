@@ -74,7 +74,7 @@ const toggle_sections = (class_div) => {
     
     // place map on top of college park
     const map = L.map(map_elem, {
-        center: [38.987, -76.943],
+        center: [39.004, -76.9424],
         zoom: 13
     });
 
@@ -88,7 +88,10 @@ const toggle_sections = (class_div) => {
     const class_info = courses[class_code];
     const class_sections = class_info.sections.map(e => sections[e])
     class_sections[0]?.meetings.forEach(({building}) => {
+        const building_info = buildings[building];
+        if (!building_info) return;
 
+        L.marker([building_info.lat, building_info.long]).addTo(map);
     })
 
     map_elem.classList.add("map")

@@ -73,6 +73,7 @@ body > div {
 
 .map {
     height: 350px;
+    aspect-ratio: 1;
 }
 
 .class-toggle {
@@ -104,20 +105,3 @@ body > div {
 .class-toggle:checked ~ .class-label > img {
     rotate: 0deg;
 }
-
-/* <li class="class" id="class${id}">
-        <input type="checkbox" id="${id}-label" class="toggle">
-        <label class="class-label" for="departments-label">
-            <div>
-                <span class="class-label-id">${id}</span>
-                <br>
-                <span class="class-label-name">${name}</span>
-            </div>
-            <img src="resources/images/downarrow.png" alt="">
-        </label>
-
-        <div hidden>
-            <p>${description}</p>
-            <div class="map" id="map${id}"></div>
-        </div>
-    </li> */
