@@ -26,13 +26,61 @@ const retrieve_classes = async () => {
 const create_list_elem = (id) => {
     const {name, description} = courses[id]
     return `
-    <li class="class">
-        <h1>${id}</h1>
-        <h3>${name}</h3>
-        <p>${description}</p>
+    <li class="class" id="class${id}">
+        <input type="checkbox" id="${id}-label" class="class-toggle">
+        <label class="class-label" for="${id}-label">
+            <div>
+                <span class="class-label-id">${id}</span>
+                <br>
+                <span class="class-label-name">${name}</span>
+            </div>
+            <img src="resources/images/downarrow.png" alt="">
+        </label>
+
+        <div hidden>
+            <hr>
+            <p>${description}</p>
+            <div class="map" id="map${id}"></div>
+        </div>
     </li>
     <hr>
     `
+}
+
+// least reusable code of all time
+const create_departments_checkboxes = () => {
+    return Object.entries(departments).reduce((acc, [key, value]) => 
+        acc + `
+        <div>
+            <input type="checkbox" id=${key} name=${key} value=${key}>
+            <label for=${key}>${key}</label>
+        </div>
+        `
+    , "")
+}
+
+const toggle_sections = (class_div) => {
+    //
+    const class_code = class_div.id;
+    let map = class_div.getElementById(class_code + "map");
+
+    // map already initialized
+    if (map.classList.contains("map")) return;
+    
+    // place map on top of college park
+    map = L.map(map, {
+        center: [38.987, -76.943],
+        zoom: 13
+    });
+
+    // add tile layer herp derp
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    // add in sections for class
+
 }
 
 const main = async() => {
@@ -40,11 +88,31 @@ const main = async() => {
     // load all classes
     await retrieve_classes();
 
-    console.log(courses)
-
     // class_info and department_info are now available
     document.getElementById("unloaded").style.display = "none";
     document.getElementById("loaded").style.display = "block";
+
+    document.getElementById("departments").innerHTML = create_departments_checkboxes()
+
+    const filter_form = document.getElementById("filter-form")
+    const inputs = Array.from(filter_form.getElementsByTagName("input"));
+    const selects = Array.from(filter_form.getElementsByTagName("select"));
+    const clear_filter_button = document.getElementById("clear-filter-button")
+
+    clear_filter_button.addEventListener("click", () => {
+        // clear inputs
+        inputs.forEach(input => {
+            if (input.classList.contains("toggle") || input == clear_filter_button) return
+            
+            input.value = "";
+            input.checked = false;
+        })
+
+        // clear selects
+        selects.forEach(select => {
+            select.selectedIndex = 0;
+        })
+    })
 
     const search_results = document.getElementById("results")
 
@@ -73,6 +141,14 @@ const main = async() => {
         // display as a unordered list
         search_results.innerHTML = 
             `<ul>${result.reduce((acc, item) => `${acc}${create_list_elem(item)}`, '')}</ul>`;
+        
+        Array.from(search_results.getElementsByClassName("section-toggle"))
+            .forEach(toggle => {
+                toggle.addEventListener("click", () => {
+                    toggle_sections(toggle)
+                })
+            }
+        )
     });
 }
 

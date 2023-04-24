@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- leaflet stuff -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-    crossorigin=""></script>
-
-
     <!-- include json files -->
     <script type="application/json" src="resources/info/course_ids.json"></script>
     <script type="application/json" src="resources/info/courses.json"></script>
     <script type="application/json" src="resources/info/departments.json"></script>
     <script type="application/json" src="resources/info/sections.json"></script>
 
-
+    <!-- stylesheetz -->
+    <link rel="stylesheet" href="resources/stylesheets/herp.css">
     <link rel="stylesheet" href="resources/stylesheets/colors.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+
+    <!-- code -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
     <script type="text/javascript" src="resources/scripts/course-registration.js"></script>
 </head>
 <body>
@@ -34,28 +34,53 @@
 
     <div id="loaded" hidden>
         <nav>
-            <h1>Enter any course or course id:</h1>
-            <input id="searchbar" type="text">
+            <input id="searchbar" type="text" placeholder="Search by class keywords/code">
     
             <h2>Filter:</h2>
-            <form action="">
-                <input type="reset" value="Clear Filter">
-                <label for="">Course:</label><br>
-                <input type="text">
-                <label for="">Section:</label><br>
-                <label for=""></label>
-                <input type="text">
-    
-                <input type="text">
-    
+            <form id="filter-form">
+                <hr>
+                <div class="form-container">
+                    <input type="checkbox" id="departments-label" class="toggle">
+                    <label class="checkbox-label" for="departments-label">
+                        <span>Departments</span>
+                        <img src="resources/images/downarrow.png" alt="">
+                    </label>
+                    
+                    <div id="departments">
+
+                    </div>
+                </div>
+                <hr>
+                <div class="form-container">
+                    <input type="checkbox" id="credits-label" class="toggle">
+                    <label class="checkbox-label" for="credits-label">
+                        <span>Credits</span>
+                        <img src="resources/images/downarrow.png" alt="">
+                    </label>
+
+                    <div>
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">>=</option>
+                            <option value="">=</option>
+                            <option value=""><=</option>
+                        </select>
+        
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">1.0</option>
+                            <option value="">2.0</option>
+                            <option value="">3.0</option>
+                            <option value="">4.0</option>
+                        </select>
+                    </div>
+                </div>
                 <hr>
     
-    
-                <input type="submit" value="Search">
+                <input id="clear-filter-button" type="button" value="Clear Filter">
             </form>
         </nav>
-    
-    
+        
         <section id="results">
             <!-- 
     
