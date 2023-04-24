@@ -1,28 +1,14 @@
-const API_DOMAIN = "https://api.umd.io/v1/";
-
-// gets current date in YYYYMM format-- this is used for
-// retrieving information for any present and future semester
-const CURR_DATE = new Date().toISOString().slice(0, 7).replace('-', '');
-const DEBUG = true;
-
-// generalizes API calls
-const retrieve_info = async (endpoint, params = {}) => {
-    params = new URLSearchParams(params)
-
-    // retrieve it all
-    const response = await fetch(API_DOMAIN + endpoint + '?' + params);
-    return await response.json();
-}
-
-// preload all available departments and classes from the jump
-// wish there was a better way to go about this without hardcoding
-// every department
-
 let departments = {}; // determined while pulling for all class data
 let courses = {}; // determined while pulling for all class data
 let sections = {};
 let course_ids = new Set(); // used for filtering later.
 
+
+// unfortunately, API calls had to be done beforehand. all information
+// for constant information, like class name and code have already
+// been pulled
+
+// this pulls the json information that was retrieved from the API
 const retrieve_classes = async () => {
     departments = await fetch("resources/info/departments.json");
     departments = await departments.json();
