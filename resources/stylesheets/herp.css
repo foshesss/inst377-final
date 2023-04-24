@@ -67,13 +67,10 @@ body > div {
     list-style: none;
 }
 
-#results > ul > li {
-    padding: 1rem 0;
-}
-
 .map {
     height: 350px;
     aspect-ratio: 1;
+    margin: 1rem 0;
 }
 
 .class-toggle {
@@ -84,6 +81,7 @@ body > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 0;
 }
 
 .class-label > div {
@@ -95,7 +93,7 @@ body > div {
 }
 
 .class > div > hr {
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 .class-toggle:checked ~ div {

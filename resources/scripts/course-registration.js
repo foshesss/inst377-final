@@ -74,8 +74,10 @@ const toggle_sections = (class_div) => {
     
     // place map on top of college park
     const map = L.map(map_elem, {
-        center: [39.004, -76.9424],
-        zoom: 13
+        center: [38.9875, -76.9424],
+        minZoom: 14.25,
+        maxZoom: 14.25,
+        zoom: 14.25
     });
 
     // add tile layer herp derp
@@ -87,14 +89,19 @@ const toggle_sections = (class_div) => {
     // add in sections for class
     const class_info = courses[class_code];
     const class_sections = class_info.sections.map(e => sections[e])
-    class_sections[0]?.meetings.forEach(({building}) => {
-        const building_info = buildings[building];
-        if (!building_info) return;
 
-        L.marker([building_info.lat, building_info.long]).addTo(map);
+    class_sections.forEach(s => {
+        s?.meetings.forEach(({building}) => {
+            const building_info = buildings[building];
+            if (!building_info) return;
+    
+            L.marker([building_info.lat, building_info.long]).addTo(map);
+        })
     })
 
     map_elem.classList.add("map")
+
+    L.Util.requestAnimFrame(map.invalidateSize,map,!1,map._container);
 }
 
 const main = async() => {
