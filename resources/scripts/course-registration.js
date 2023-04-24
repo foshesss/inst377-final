@@ -76,7 +76,7 @@ const toggle_sections = (class_div) => {
     const map = L.map(map_elem, {
         center: [38.9875, -76.9424],
         minZoom: 14.25,
-        maxZoom: 14.25,
+        // maxZoom: 14.25,
         zoom: 14.25
     });
 
