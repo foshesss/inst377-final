@@ -1,0 +1,2941 @@
+[
+    {
+        "course_id": "AAPS380",
+        "semester": "202308",
+        "name": "Fearless First: Negotiating the Hidden Curriculum in Higher Education and Other Societal Institutions",
+        "dept_id": "AAPS",
+        "department": "Academic Achievement Programs",
+        "credits": "2",
+        "description": "This course examines the research and theory about first-generation college students and complicates the discourse around identity and experiences as a first-generation college student and the efforts made to expand access to higher education and major U. S. institutions. Moreover, the course will encourage students to use their strengths and cultural wealth, assets and values, along with introducing and expanding known cultural and social capital to successfully negotiate these institutional environments. Students who identify as first-generation are strongly encouraged to enroll.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": "Permission of Academic Achievement Programs.",
+            "additional_info": "Repeatable to 0 credit if content differs.",
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AAPS380-0101"
+        ]
+    },
+    {
+        "course_id": "AASP100",
+        "semester": "202308",
+        "name": "Introduction to African American Studies",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Significant aspects of the history of African Americans with particular emphasis on the evolution and development of black communities from slavery to the present. Interdisciplinary introduction to social, political, legal and economic roots of contemporary problems faced by blacks in the United States with applications to the lives of other racial and ethnic minorities in the Americas and in other societies.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "SH",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP100-0101",
+            "AASP100-0301",
+            "AASP100-0501",
+            "AASP100-0201",
+            "AASP100-0401",
+            "AASP100-0601"
+        ]
+    },
+    {
+        "course_id": "AASP100H",
+        "semester": "202308",
+        "name": "Introduction to African American Studies",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Significant aspects of the history of African Americans with particular emphasis on the evolution and development of black communities from slavery to the present. Interdisciplinary introduction to social, political, legal and economic roots of contemporary problems faced by blacks in the United States with applications to the lives of other racial and ethnic minorities in the Americas and in other societies.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "SH",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP100H-0101"
+        ]
+    },
+    {
+        "course_id": "AASP101",
+        "semester": "202308",
+        "name": "Public Policy and the Black Community",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "The impact of public policies on the black community and the role of the policy process in affecting the social, economic and political well-being of minorities. Particular attention given to the post-1960 to present era.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS"
+            ]
+        ],
+        "core": [
+            "SB"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AASP300.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP101-0101"
+        ]
+    },
+    {
+        "course_id": "AASP187",
+        "semester": "202308",
+        "name": "The New Jim Crow: African-Americans, Mass Incarceration and the Prison Industrial Complex",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Students will examine the birth of the racial caste system following the abolition of slavery, the parallels between the racial hierarchy of the Jim Crow system and contemporary mass incarceration, and the rise of the prison industrial complex as a multi-billon business which thrives on the oppression of low-income populations and poor communities of color.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP",
+                "SCIS"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Recommended: AASP100.",
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP187-0101"
+        ]
+    },
+    {
+        "course_id": "AASP200",
+        "semester": "202308",
+        "name": "African Civilization",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "A survey of African civilizations from 4500 B.C. to present. Analysis of traditional social systems. Discussion of the impact of European colonization on these civilizations. Analysis of the influence of traditional African social systems on modern African institutions as well as discussion of contemporary processes of Africanization.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU"
+            ]
+        ],
+        "core": [
+            "H"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP200-0101",
+            "AASP200-FC01"
+        ]
+    },
+    {
+        "course_id": "AASP202",
+        "semester": "202308",
+        "name": "Black Culture in the United States",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "The course examines important aspects of African American life and thought which are reflected in African American literature, drama, music and art. Beginning with the cultural heritage of slavery, the course surveys the changing modes of black creative expression from the 19th-century to the present.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "SH",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP202-0101",
+            "AASP202-0103",
+            "AASP202-0102",
+            "AASP202-0104"
+        ]
+    },
+    {
+        "course_id": "AASP202H",
+        "semester": "202308",
+        "name": "Black Culture in the United States",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "The course examines important aspects of African American life and thought which are reflected in African American literature, drama, music and art. Beginning with the cultural heritage of slavery, the course surveys the changing modes of black creative expression from the 19th-century to the present.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "SH",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP202H-0101"
+        ]
+    },
+    {
+        "course_id": "AASP210",
+        "semester": "202308",
+        "name": "Intro to Research Design and Analysis in African American Studies",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Introduces students to quantitative and qualitative research methods used in social science with a focus on Black populations and African American Studies Research. Uses practical exercises, such as class surveys and mock focus groups, to examine fundamental concepts of the research process from conceptualization of research questions to interpretation of data and research articles. The course is designed for undergraduate students with little or no background knowledge in social science research methods.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP210-0101"
+        ]
+    },
+    {
+        "course_id": "AASP230",
+        "semester": "202308",
+        "name": "Social (In)Justice and African-American Health and Well-Being",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "African Americans suffer worse outcomes than non-Hispanic whites on nearly every health measure and outcomes that link to overall well-being like depressive symptoms or homicides. Health disparities are experienced by other underrepresented minority groups, but because of the unique historic and current experiences of African Americans, the determinants and solutions to African American health disparities are unique. The premise of this course is that African American health disparities are due to social injustices perpetuated on the institutional level that have permeated the lived experiences of African Americans leading to racial disparities in health and well-being. As such, the solutions on the both policy, and community, level must have a social justice approach.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP",
+                "SCIS"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP230-0101"
+        ]
+    },
+    {
+        "course_id": "AASP263",
+        "semester": "202308",
+        "name": "Introduction to Black Women's Studies",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Interdisciplinary exploration of Black women, culture and society in the United States. Drawn primarily from the social sciences and history with complementary material from literature and the arts.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "WMST263.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: WGSS263.",
+            "also_offered_as": null,
+            "credit_granted_for": "WMST263, AASP298I, WGSS263 or AASP263."
+        },
+        "sections": [
+            "AASP263-0101"
+        ]
+    },
+    {
+        "course_id": "AASP265",
+        "semester": "202308",
+        "name": "Constructions of Manhood and Womanhood in the Black Community",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Investigates the ways that African Americans are represented and constructed in public and private spheres and explores the social constructions and representations of Black manhood and womanhood from various disciplinary perspectives.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "WMST265.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: WGSS265.",
+            "also_offered_as": null,
+            "credit_granted_for": "WMST265, AASP298B, WGSS265 or AASP265."
+        },
+        "sections": [
+            "AASP265-0101"
+        ]
+    },
+    {
+        "course_id": "AASP298C",
+        "semester": "202308",
+        "name": "African-American History to 1865",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Survey of the principal developments in the history and culture of the peoples of African descent in colonial North America and the United States to 1865. Examines the African past, the Atlantic slave trade, variation in slavery, the growth of free black communities, the transformations of families and cultural forms, and patterns of resistance.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "SH",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: HIST254.",
+            "also_offered_as": null,
+            "credit_granted_for": "HIST254 or AASP298C."
+        },
+        "sections": [
+            "AASP298C-0101"
+        ]
+    },
+    {
+        "course_id": "AASP298L",
+        "semester": "202308",
+        "name": "African-American Literature and Culture",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "An exploration of the stories black authors tell about themselves, their communities, and the nation as informed by time and place, gender, sexuality, and class. African American perspective themes such as art, childhood, sexuality, marriage, alienation and mortality, as well as representations of slavery, Reconstruction, racial violence and the Nadir, legalized racism and segregation, black patriotism and black ex-patriots, the optimism of integration, and the prospects of a post-racial America.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "HL",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: ENGL234. Cross-listed with ENGL234. Credit granted for AASP298L or ENGL234.",
+            "also_offered_as": null,
+            "credit_granted_for": "ENGL234 or AASP298L."
+        },
+        "sections": [
+            "AASP298L-0201"
+        ]
+    },
+    {
+        "course_id": "AASP298M",
+        "semester": "202308",
+        "name": "Martin Luther King Jr.",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Examines the life and work of Martin Luther King, Jr. We immediately rethink the image of King who liberals and conservatives construct as a dreamer of better race relations. We engage the complexities of an individual, who articulated a moral compass of the nation, to explore racial justice in post-World War II America. This course gives special attention to King's post-1965 radicalism when he called for a reordering of American society, an end to the war in Vietnam, and supported sanitation workers striking for better wages and working conditions. Topics include King's notion of the \"beloved community\", the Social Gospel, liberalism, \"socially conscious democracy\", militancy, the politics of martyrdom, poverty and racial justice, and compensatory treatment. Primary sources form the core of our readings.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS"
+            ]
+        ],
+        "core": [
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: HIST108C, AMST189C.",
+            "also_offered_as": null,
+            "credit_granted_for": "HIST108C, AASP298M, or AMST189C."
+        },
+        "sections": [
+            "AASP298M-0101"
+        ]
+    },
+    {
+        "course_id": "AASP301",
+        "semester": "202308",
+        "name": "Applied Policy Analysis and the Black Community",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Development and application of the tools needed for examining the effectiveness of alternative policy options confronting minority communities. Review policy research methods used in forming and evaluating policies. Examination of the policy process.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "AASP101; and (ECON201 or ECON200).",
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Recommended: Completion of one semester of statistics is recommended.",
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP301-0101"
+        ]
+    },
+    {
+        "course_id": "AASP313",
+        "semester": "202308",
+        "name": "Black Women in United States History",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Black American women's history from slavery to the present. Focused on gaining a fuller understanding of the effect of race, class and gender on the life cycles and multiple roles of Black women as mothers, daughters, wives, workers and social-change agents.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "WMST314.",
+            "restrictions": "Sophomore standing or higher.",
+            "additional_info": "Cross-listed with: WGSS314.  For Fall 2020:  Credit granted for AASP313, HIST329E, or WMST314.",
+            "also_offered_as": "HIST329E.",
+            "credit_granted_for": "AASP313, WMST314 or WGSS314."
+        },
+        "sections": [
+            "AASP313-0101"
+        ]
+    },
+    {
+        "course_id": "AASP320",
+        "semester": "202308",
+        "name": "Poverty and African American Children",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "The United States has high levels of child poverty compared to other industrialized nations. Poverty rates are particularly high among African American children. This course focuses on how poverty and race intersect to influence the development of children and youth. Specific topics that we will consider include definitions of poverty, theories about the causes of poverty, racial disparities in child poverty, family functioning in the context of poverty, neighborhood influences, risk and protective processes, and social policies and programs designed to mitigate the impact of poverty.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AASP298P.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP320 or AASP298P."
+        },
+        "sections": [
+            "AASP320-0101"
+        ]
+    },
+    {
+        "course_id": "AASP350",
+        "semester": "202308",
+        "name": "Cinema of the Black Atlantic",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "This course examines cinema from the black Atlantic world, treating key films from Africa, the Caribbean, Latin America, and the United States. Anticolonial work by Ousmane Sembene and Sarah Maldoror, memory work by Haile Gerima and Julie Dash, and vernacular filmmaking by Charles Burnett, Spike Lee, Perry Henzell, Melvin Van Peebles, and others will introduce us to the varied concerns of Black filmmakers in moments of independence struggle and post-emancipation identity formation. While eclectic in selection, our examination of these films will be oriented around a pair of questions. What is antiblackness and how does cinema encounter, contemplate, and critique it? How do different geographies and historical experiences shift cultural and political concerns, as well as the methods of cinema along with those differing concerns? Such questions will allow us to see how questions of antiblackness and Black life operate in the between and overlapping spaces of colonial experience, ghettoization, and sites of resistance, rebellion, and radicalism.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP350-0101"
+        ]
+    },
+    {
+        "course_id": "AASP386",
+        "semester": "202308",
+        "name": "Experiential Learning",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Restriction: Permission of BSOS-African American Studies department; and junior standing or higher.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP386-0101"
+        ]
+    },
+    {
+        "course_id": "AASP397",
+        "semester": "202308",
+        "name": "Senior Thesis",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Directed research in African American Studies resulting in the completion and defense of a senior thesis.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": "Permission of BSOS-African American Studies department.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AASP398B",
+        "semester": "202308",
+        "name": "Selected Topics in the African Diaspora; Black Immigrants: Challenges and Impacts",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Cross-listed with IMMR319D.   How does immigration affect Black communities in the United States? How are foreign Black affected by living in the United States? Students will learn about: US history of immigration policy; pull and push factors driving Black migration; comparisons in socioeconomic outcomes between foreign and native Blacks; and differences between 1st and 2nd generation Black immigrants.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP398B or IMMR319D."
+        },
+        "sections": [
+            "AASP398B-0101"
+        ]
+    },
+    {
+        "course_id": "AASP398G",
+        "semester": "202308",
+        "name": "Selected Topics in the African Diaspora; Gender, Labor and Racial Identities in Diaspora Communities",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Cross-listed with AMST328K.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP398G or AMST328K."
+        },
+        "sections": [
+            "AASP398G-0101"
+        ]
+    },
+    {
+        "course_id": "AASP398Q",
+        "semester": "202308",
+        "name": "Selected Topics in the African Diaspora; Black Baltimore in the Post Racial U.S: African American Urban Culture in the Age of Obama",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Cross-listed with AMST328M.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP398Q or AMST328M."
+        },
+        "sections": [
+            "AASP398Q-0101"
+        ]
+    },
+    {
+        "course_id": "AASP398V",
+        "semester": "202308",
+        "name": "Selected Topics in the African Diaspora; African American Public History",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Cross-listed with HIST329J and AMST328F.   This course analyzes the field of public history through the lens of African American history, considering the myriad ways beyond the classroom that African American history is circulated and consumed by the general public. By examining museums, historic sites, monuments, films and documentaries, and the digital landscape, students will examine and critique how historical narratives focusing on the experiences of peoples of African descent in the United States have been constructed in public spaces.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "HIST329J, AASP398V, or AMST328F."
+        },
+        "sections": [
+            "AASP398V-0101"
+        ]
+    },
+    {
+        "course_id": "AASP398Z",
+        "semester": "202308",
+        "name": "Selected Topics in the African Diaspora; Black Contributions to History",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "This survey course sheds light on forgotten ingenuity, stolen scientific, and ignored legacy from pharaonic Egypt to the scramble for Africa (1885) to modern Black groundbreaking contributions that have changed the world. While the archeological investigation is focused on the pan-African world, the course is designed to encourage students to delve into their creative and critical thinking skills and to view themselves as inventors and problem solvers. This course also challenges students to grasp inventions that have already taken place in a particular historical context and cultural pluralism, as well as helps them to comprehend and apply scientific principles in everyday life.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP398Z-0101"
+        ]
+    },
+    {
+        "course_id": "AASP399",
+        "semester": "202308",
+        "name": "Research in African-American Studies",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AASP417",
+        "semester": "202308",
+        "name": "Emotions and Culture in the African American Community",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Emotions are affective states, both positive and negative, that reflect an individual's continuous stream of experience. The goal of this course is to introduce students to the role of culture and racism in shaping the ways in which African Americans experience, express, understand, and control emotions on a behavioral, physiological, and psychological level. We will begin with exploration of historical influences such as the role of African culture on contemporary African American norms of expressivity and the role of antebellum slavery, the eugenics movement, and blackface on stimulating contemporary stereotypes about African American emotional temperament (e.g., stereotypes regarding aggressiveness, anger, and violence). We will conclude with discussions of the impact of discrimination on emotional and physiological reactivity and factors that promote emotional resiliency. The course materials will require students to grapple with the contemptuous disconnect between the African American cultural tradition of free emotional expressivity and the survival strategy to control emotions in response to a society threatened by Black emotionality.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AASP498E.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP417 or AASP498E."
+        },
+        "sections": [
+            "AASP417-0101"
+        ]
+    },
+    {
+        "course_id": "AASP498O",
+        "semester": "202308",
+        "name": "Special Topics in Black Culture; African American and Latino Social, Cultural and Political Relations: 1940 to Present",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Cross-listed with USLT498E.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP498O or USLT498E."
+        },
+        "sections": [
+            "AASP498O-0101"
+        ]
+    },
+    {
+        "course_id": "AASP498Y",
+        "semester": "202308",
+        "name": "Special Topics in Black Culture; Black Queer Studies",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "Cross-listed with LGBT448L.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "LGBT448L or AASP498Y."
+        },
+        "sections": [
+            "AASP498Y-0101"
+        ]
+    },
+    {
+        "course_id": "AASP499N",
+        "semester": "202308",
+        "name": "Advanced Topics in Public Policy and the Black Community; News Coverage of Racial Issues",
+        "dept_id": "AASP",
+        "department": "African American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": "Junior standing or higher.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AASP499N-0101"
+        ]
+    },
+    {
+        "course_id": "AAST200",
+        "semester": "202308",
+        "name": "Introduction to Asian American Studies",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "The aggregate experience of Asian Pacific Americans, from developments in the countries of origin to their contemporary issues. The histories of Asian Pacific American groups as well as culture, politics, the media, and stereotypes, viewed from an interdisciplinary perspective.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "SB",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: AMST298C.",
+            "also_offered_as": null,
+            "credit_granted_for": "AAST200 or AMST298C."
+        },
+        "sections": [
+            "AAST200-0101",
+            "AAST200-0201"
+        ]
+    },
+    {
+        "course_id": "AAST222",
+        "semester": "202308",
+        "name": "Immigration and Ethnicity in America",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "The history of immigration and the development of diverse populations in the United States are examined. Topics include related political controversies, the social experiences of immigrants, ethnicity, generations, migration, inter-group relations, race and diversity in American culture.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "SH",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: SOCY222.",
+            "also_offered_as": null,
+            "credit_granted_for": "AAST222, HIST222, or SOCY222."
+        },
+        "sections": [
+            "AAST222-0101"
+        ]
+    },
+    {
+        "course_id": "AAST262",
+        "semester": "202308",
+        "name": "Asian American Psychology",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "An overview of how socio-cultural influences impact the development and psychological health of Asian Americans. Other topics include how minority group status, adaptation and identity development influence various aspects of psychological functioning; the role of historic systematic racism; and, how the COVID-19 pandemic has negatively impacted Asian Americans. Students develop a deeper understanding of the role of stereotypes and racism, acculturation, racial identity development, cultural values, gender socialization, behavioral norms, family roles, stressors and social support systems on the mental health, well-being and health of Asian Americans.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "PSYC489Z.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: PSYC262.",
+            "also_offered_as": null,
+            "credit_granted_for": "PSYC262, AAST262 or PSYC489Z."
+        },
+        "sections": [
+            "AAST262-0101"
+        ]
+    },
+    {
+        "course_id": "AAST298O",
+        "semester": "202308",
+        "name": "Special Topics in Asian American Studies; The South Asian American Experience",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AAST298O-0101"
+        ]
+    },
+    {
+        "course_id": "AAST351",
+        "semester": "202308",
+        "name": "Asian Americans and Media",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "From yellow peril invaders to model minority allies, Asian Americans have crafted their own dynamic cultural expressions in a number of media from film, television, and music to fashion, sports, and food that reveal and contest the contradictions of the U.S. nation-state. Asian American culture also uniquely sits at the nexus of immigration flows and digital technologies, providing a transnational lens to view the US place in the world. This advanced course, then, will introduce students to the study and practice of Asian American cyktyre as multiple , hybrid, and heterogeneous. It will do so through three sections: section one will introduce students to classical, cultural, and media concepts as well as relevant keywords outlined by Asian American Studies scholars; section two will review the work of Asian American cultural theorists; section three will focus on analyses of particular Asian American cultural productions. In doing so, students will gain an understanding of the shifting and interlocking tensions among the local, the national, and the global that form the cultural geographies of Asian America.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSSP",
+                "DVUP"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AAST398M, AAST398N.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AAST351, AAST398M or AAST398N."
+        },
+        "sections": [
+            "AAST351-0101"
+        ]
+    },
+    {
+        "course_id": "AAST355",
+        "semester": "202308",
+        "name": "Asian Americans in Film",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "Explores how Asian Americans have historically been represented in the U.S. by Hollywood, and in turn, how independent and Hollywood Asian American filmmakers have represented themselves. It covers the history of racial, gendered, and sexualized representations of Asian Americans in Hollywood, as well as Asian American filmic responses within and outside Hollywood. It also introduces how four basic tools of film analysis mise-en-scene, cinematography, editing and sound work together to create meaning in moving images. It examines how these elements are put together in three different types of films by Asian American filmmakers: narrative, documentary, and experimental. How films function in society to circulate ideas that reproduce and challenge stereotypes about Asian Americans.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "398L.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: AMST328W.",
+            "also_offered_as": null,
+            "credit_granted_for": "AAST355, AAST398L or AMST328W."
+        },
+        "sections": [
+            "AAST355-0101"
+        ]
+    },
+    {
+        "course_id": "AAST363",
+        "semester": "202308",
+        "name": "Filipino American History and Biography",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "Focus is placed on Filipino American experiences with an emphasis on identity, community building and organizing to influence public policy We will cover pertinent events from the US and Philippine history in order to understand the impact of colonialism, migration, immigration and assimilation on Filipino Americans.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AAST398D.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: AMST323.",
+            "also_offered_as": null,
+            "credit_granted_for": "AAST363, AMST323, AAST398D, or AMST328J."
+        },
+        "sections": [
+            "AAST363-0101"
+        ]
+    },
+    {
+        "course_id": "AAST378",
+        "semester": "202308",
+        "name": "Experiential Learning",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AAST378-0101"
+        ]
+    },
+    {
+        "course_id": "AAST388",
+        "semester": "202308",
+        "name": "Independent Research",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AAST388-0101",
+            "AAST388-0201",
+            "AAST388-0301",
+            "AAST388-0401"
+        ]
+    },
+    {
+        "course_id": "AAST394",
+        "semester": "202308",
+        "name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "An interdisciplinary course examines the experiences of children of Asian immigrants in the U.S., focusing on intergenerational dynamics in the Asian immigrant family, their intersections with race, gender, class, sexuality, and religion, and how these shape second-generation Asian American life. Topics include identity and personhood, the model minority myth and education, work and leisure, language and communication, filiality and disownment, mental health and suicide.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [
+            [
+                "DVCC"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AAST398E.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: AMST324, IMMR394.",
+            "also_offered_as": null,
+            "credit_granted_for": "AAST394, AAST398E, AMST324, AMST328V, IMMR319G or IMMR394."
+        },
+        "sections": [
+            "AAST394-0101"
+        ]
+    },
+    {
+        "course_id": "AAST498G",
+        "semester": "202308",
+        "name": "Advanced Topics in Asian American Studies; Asian American Women and Gender",
+        "dept_id": "AAST",
+        "department": "Asian American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AAST498G-0101"
+        ]
+    },
+    {
+        "course_id": "ABRM330",
+        "semester": "202308",
+        "name": "Introduction to Anti-Black Racism",
+        "dept_id": "ABRM",
+        "department": "Anti-Black Racism",
+        "credits": "3",
+        "description": "This interdisciplinary course seeks to provide a broad overview of this rich and dynamic history. Built around the expertise of top UMD faculty in five colleges, this course will introduce students to the history and legacy of anti-Black racism from the perspective of multiple disciplines. In this course you will examine the development, spread, and articulations of anti-Black racism in the United States.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": "Must be in the Anti-Black Racism minor.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "ABRM330-0101"
+        ]
+    },
+    {
+        "course_id": "AGNR200",
+        "semester": "202308",
+        "name": "AGNR 2+2 Program  Extended Orientation Seminar",
+        "dept_id": "AGNR",
+        "department": "Agriculture and Natural Resources",
+        "credits": "1",
+        "description": "Introduces AGNR 2+2 students to University and \"American\" life. Assists with their successful transition to the College and Agriculture and Natural Resources and the University of Maryland. Helps students to understand their place in AGNR at to learn about the resources available to them.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "Must be a first semester international student enrolled in the AGNR 2+2 Program.",
+            "formerly": null,
+            "restrictions": "Must be a first year international student enrolled in the College of Agriculture and Natural Resources 2+2 Program.",
+            "additional_info": "It is strongly recommended that AGNR 2+2 students take AGNR 200 during the first semester at the University.      One class meeting per week.  This courses is initiated by International Programs and will be coordinated in conjunction with the College of AGNR.",
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGNR200-0101"
+        ]
+    },
+    {
+        "course_id": "AGNR301",
+        "semester": "202308",
+        "name": "Sustainability",
+        "dept_id": "AGNR",
+        "department": "Agriculture and Natural Resources",
+        "credits": "3",
+        "description": "Designed for students whose academic majors would be enhanced by the complementary study of a widely shared but hard-to-operationalize aspiration: that present choices should preserve or improve future options rather than foreclose or degrade them. How should we understand sustainability? How might we achieve it? How would we know if we had achieved it? And how could sustainability activists of a rising generation lead by example?",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "PUAF301.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: PLCY301.",
+            "also_offered_as": null,
+            "credit_granted_for": "AGNR301, PUAF301, or PLCY301."
+        },
+        "sections": [
+            "AGNR301-0101"
+        ]
+    },
+    {
+        "course_id": "AGNR388",
+        "semester": "202308",
+        "name": "Honors Thesis Research",
+        "dept_id": "AGNR",
+        "department": "Agriculture and Natural Resources",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGNR388-0101"
+        ]
+    },
+    {
+        "course_id": "AGNR499",
+        "semester": "202308",
+        "name": "Special Problems; Special Problems",
+        "dept_id": "AGNR",
+        "department": "Agriculture and Natural Resources",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGNR499-0102"
+        ]
+    },
+    {
+        "course_id": "AGNR630",
+        "semester": "202308",
+        "name": "Teaching-Learning in Adult and Continuing Education",
+        "dept_id": "AGNR",
+        "department": "Agriculture and Natural Resources",
+        "credits": "3",
+        "description": "The teaching/learning process in adult continuing education. Instructional techniques and methodologies appropriate for adults. The curriculum development process. Issues and priorities in adult continuing education.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AGRI630.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGNR630-0101"
+        ]
+    },
+    {
+        "course_id": "AGST130",
+        "semester": "202308",
+        "name": "Did Yeast Create Civilization?",
+        "dept_id": "AGST",
+        "department": "Agricultural Science and Technology",
+        "credits": "3",
+        "description": "Fermented foods have played a major role in the transition from nomadic to settled agrarian societies, the establishment of social and religious customs, the expansion of empires, and modern economies.  To what extent are our past and current attitudes towards fermented foods rooted in historical and cultural imprints? Explore the central role of fermentation in human history and culture, the basic microbiological processes underlying fermentation processes, and the processes used to produce and distribute fermented foods. Find out how the fruits, grains, and dairy products used to produce fermented foods are grown and selected.  Students will learn about the development and modern use of fermented dairy products, pickles, bread, tea, chocolate, wine, beer, distilled liquors, and pharmaceutical/manufactured products.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "SCIS"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Recommended: CHEM103, CHEM131, CHEM135, or CHEM146. Cross-listed with: PLSC130. This course is not hands-on and does not teach how to ferment food.",
+            "also_offered_as": null,
+            "credit_granted_for": "AGST130 or PLSC130."
+        },
+        "sections": [
+            "AGST130-0101",
+            "AGST130-0102",
+            "AGST130-ESG1"
+        ]
+    },
+    {
+        "course_id": "AGST307",
+        "semester": "202308",
+        "name": "Mentorship in Agronomy and Career Exploration",
+        "dept_id": "AGST",
+        "department": "Agricultural Science and Technology",
+        "credits": "1",
+        "description": "An introduction to the Agronomy Mentor Program as well as an introduction to the broad spectrum of career opportunities in agronomic farming. This course is an overview of the Agronomy Mentor Program and students will have the opportunity to learn about various career paths in the agronomic farm industry.  Presentations by industry leaders and discussions with farm professionals will be an integral part of this course. Following the completion of this course students will eligible to register for the Mentorship in Agronomy course (AGST308).",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "PLSC101 or (PLSC112 and PLSC113), PLSC407, ENST200, MATH113 or higher, and ENGL101.",
+            "formerly": null,
+            "restrictions": "Must be in the Agricultural Science and Technology-Agronomy major (0101A); and must have completed all prerequisite courses with a minimum grade of C-; and must have earned a minimum of 15 credits in the Agricultural Science and Technology Agronomy major; and sophomore or higher standing; and permission of AGNR-Department of Plant Sciences and Landscape Architecture.",
+            "additional_info": "Recommended: ANSC101 and ANSC103.",
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGST307-0101"
+        ]
+    },
+    {
+        "course_id": "AGST333",
+        "semester": "202308",
+        "name": "Crafty Beverage Crops",
+        "dept_id": "AGST",
+        "department": "Agricultural Science and Technology",
+        "credits": "3",
+        "description": "From soda to wine, a scientific introduction to \"crafty beverage crops\". Students will expand their horticulture knowledge and gain an appreciation for craft beverages and the plants that made them. Topics include history, biology, production and management techniques, harvest, storage and market potential for crafty beverage crops.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Recommended: PLSC110 or PLSC112; or 1 course in BSCI, BCHM, BIOL.",
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGST333-0101"
+        ]
+    },
+    {
+        "course_id": "AGST426",
+        "semester": "202308",
+        "name": "Scientists Teaching and Translating Science",
+        "dept_id": "AGST",
+        "department": "Agricultural Science and Technology",
+        "credits": "3",
+        "description": "Explore methods in pedagogy and andragogy to facilitate science learning through the development of a teaching philosophy, outreach teaching skills, motivation in learning, assessment foundations, and review of current literature on instruction in science fields.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "PLSC489L.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AGST426 or PLSC489L."
+        },
+        "sections": [
+            "AGST426-0101"
+        ]
+    },
+    {
+        "course_id": "AGST440",
+        "semester": "202308",
+        "name": "Exploring Maryland Agriculture, Agricultural Industry, and Agricultural Literacy",
+        "dept_id": "AGST",
+        "department": "Agricultural Science and Technology",
+        "credits": "3",
+        "description": "Explore the mission and history of the Land Grant System as well as current work conducted through the University of Maryland to extend research to citizens. Often referred to as America in miniature, Maryland boasts diverse people, agricultural practices, cultures, and ecosystems which students will examine to perceive the decision making processes within and across ecological systems as well as the development of advisory boards.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGST440-0101"
+        ]
+    },
+    {
+        "course_id": "AGST640",
+        "semester": "202308",
+        "name": "Analysis of Maryland Agriculture",
+        "dept_id": "AGST",
+        "department": "Agricultural Science and Technology",
+        "credits": "3",
+        "description": "An advanced research focused course on examining the mission and history of the Land Grant System as well as appraising the current work conducted through the University of Maryland Extension to extend research to citizens. Often referred to as America in miniature, Maryland boasts diverse people, agricultural practices, cultures, and ecosystems which students will examine to perceive the decision making processes within and across ecological systems. An enriching field practicum with an agricultural agency is required.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AGST640-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC460",
+        "semester": "202308",
+        "name": "Computational Methods",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (CMSC106, CMSC131); and minimum grade of C- in MATH246.",
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: CMSC460.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMSC460, AMSC466, CMSC460, or CMSC466."
+        },
+        "sections": [
+            "AMSC460-0201",
+            "AMSC460-0301",
+            "AMSC460-0401",
+            "AMSC460-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC466",
+        "semester": "202308",
+        "name": "Introduction to Numerical Analysis I",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "Floating point computations, direct methods for linear systems, interpolation, solution of nonlinear equations.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (CMSC106, CMSC131); and minimum grade of C- in MATH410.",
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: CMSC466. Click here for more course information.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMSC460, CMSC460, AMSC466, or CMSC466."
+        },
+        "sections": [
+            "AMSC466-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC498A",
+        "semester": "202308",
+        "name": "Selected Topics in Applied Mathematics",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMSC660",
+        "semester": "202308",
+        "name": "Scientific Computing I",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "Monte Carlo simulation, numerical linear algebra, nonlinear systems and continuation method, optimization, ordinary differential equations. Fundamental techniques in scientific computation with an introduction to the theory and software for each topic.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "Must have suitable programming experience, such as in Matlab, Python, C or Fortran.",
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: CMSC660.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMSC660 or CMSC660."
+        },
+        "sections": [
+            "AMSC660-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC673",
+        "semester": "202308",
+        "name": "Partial Differential Equations I",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "Analysis of boundary value problems for Laplace's equation, initial value problems for the heat and wave equations. Fundamental solutions, maximum principles, energy methods. First order nonlinear PDE, conservation laws. Characteristics, shock formation, weak solutions. Distributions, Fourier transform.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "MATH411; or students who have taken courses with comparable content may contact the department.",
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: MATH673. Offered fall only. Cross-listed with MATH673.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMSC673 or MATH673."
+        },
+        "sections": [
+            "AMSC673-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC689",
+        "semester": "202308",
+        "name": "Research Interactions in Applied Mathematics and Scientific Computation",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMSC698D",
+        "semester": "202308",
+        "name": "Advanced Topics in Applied Mathematics; Fast Multipole Methods: Fundamentals and Applications",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "Cross-listed with CMSC878B.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "CMSC878B or AMSC698D."
+        },
+        "sections": [
+            "AMSC698D-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC721",
+        "semester": "202308",
+        "name": "Mathematical Population Biology",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "The mathematical modeling of real-life phenomena in the natural, engineering, and social sciences often involve having to solve systems of difference or differential equations.  These systems are inherently complex, owing to their (typically) high dimensionality and nonlinearity.  Hence, their exact solutions are difficult (if at all feasible) to obtain.    Consequently, these systems are generally studied using a combination of asymptotic analysis and numerical discretization approaches.  This course will cover a broad spectrum of techniques, theories and tools for modeling and analysing real-life phenomena arising in population biology, with emphasis on the study and asymptotic analysis of general classes of unstructured (single species discrete-time and continuous-time models, interacting populations etc.) and structured (spatially-structured, age-structured, sex-structured) population biology models arising in ecology and epidemiology.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: BIOL721.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMSC721 or BIOL721."
+        },
+        "sections": [
+            "AMSC721-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC760",
+        "semester": "202308",
+        "name": "Applied Statistics Practicum",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "A semester long applied applied statistical project (a minimum 10 hours per week or 120 hours in total), in an internship of collaborative research-laboratory setting working on a substantive applied quantitative project with significant statistical content.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "Must have completed one year of graduate study in Applied Statistics.",
+            "formerly": null,
+            "restrictions": "Must have project proposal approved by SAC coordinator.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMSC760-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC762",
+        "semester": "202308",
+        "name": "Data Analysis Project",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "1",
+        "description": "This course cannot be used to meet any of the Applied Statistics Area's seminar requirements. Offered yearly, required of and limited to MS non-thesis and doctoral students in Applied Statistics Area, for whom the resulting projects serve as a Qualifying Exam component. After 5-6 lectures or presentations on components of successful data analyses and write-ups, 3-4 sessions will discuss previous student project submissions. The culminating project, to be completed in a two week period between semesters, is an analysis and written report of one of three project choices made available each year to represent a spectrum of realistic applied statistical problems.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": "Permission of CMNS-Applied Mathematics department; and permission of instructor.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMSC762-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC763",
+        "semester": "202308",
+        "name": "Advanced Linear Numerical Analysis",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "3",
+        "description": "Advanced topics in numerical linear algebra, such as dense eigenvalue problems, sparse elimination, iterative methods, and other topics.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "AMSC666 or CMSC666; or permission of instructor.",
+            "formerly": "AMSC600 and CMSC760.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: CMSC763.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMSC600, AMSC763, CMSC760, or CMSC763."
+        },
+        "sections": [
+            "AMSC763-0101"
+        ]
+    },
+    {
+        "course_id": "AMSC799",
+        "semester": "202308",
+        "name": "Master's Thesis Research",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Sat-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMSC808A",
+        "semester": "202308",
+        "name": "Advanced Topics in Applied Mathematics",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMSC898",
+        "semester": "202308",
+        "name": "Pre-Candidacy Research",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Sat-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMSC899",
+        "semester": "202308",
+        "name": "Doctoral Dissertation Research",
+        "dept_id": "AMSC",
+        "department": "Applied Mathematics & Scientific Computation",
+        "credits": "6",
+        "description": "",
+        "grading_method": [
+            "Sat-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMST101",
+        "semester": "202308",
+        "name": "Introduction American Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Introduces students to the interdisciplinary field of American Studies by examining concepts such as culture, identity, cultural practices, and globalization, as well as theories underlying these concepts. Engages key themes, especially constructions of difference and identity, cultures of everyday life, and America and the world.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "H",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AMST201.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AMST101 or AMST201."
+        },
+        "sections": [
+            "AMST101-0101",
+            "AMST101-0102",
+            "AMST101-0103",
+            "AMST101-0104",
+            "AMST101-FC01"
+        ]
+    },
+    {
+        "course_id": "AMST189C",
+        "semester": "202308",
+        "name": "Martin Luther King Jr.",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Examines the life and work of Martin Luther King, Jr. We immediately rethink the image of King who liberals and conservatives construct as a dreamer of better race relations. We engage the complexities of an individual, who articulated a moral compass of the nation, to explore racial justice in post-World War II America. This course gives special attention to King's post-1965 radicalism when he called for a reordering of American society, an end to the war in Vietnam, and supported sanitation workers striking for better wages and working conditions. Topics include King's notion of the \"beloved community\", the Social Gospel, liberalism, \"socially conscious democracy\", militancy, the politics of martyrdom, poverty and racial justice, and compensatory treatment. Primary sources form the core of our readings.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: HIST108C, AASP298M.",
+            "also_offered_as": null,
+            "credit_granted_for": "HIST108C, AASP298M, or AMST189C."
+        },
+        "sections": [
+            "AMST189C-0101"
+        ]
+    },
+    {
+        "course_id": "AMST202",
+        "semester": "202308",
+        "name": "Cultures of Everyday Life in America",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Examine the structures and patterns of everyday life in the U.S., utilizing methods such as ethnography, oral history, survey research, and textual, visual, and material cultural analysis.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHS"
+            ]
+        ],
+        "core": [
+            "SH"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST202-0101"
+        ]
+    },
+    {
+        "course_id": "AMST203",
+        "semester": "202308",
+        "name": "Popular Culture in America",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "An introduction to American popular culture, its historical development, and its role as a reflection of and influence on our culture and society.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "H"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST203-0201",
+            "AMST203-FC01",
+            "AMST203-FC02"
+        ]
+    },
+    {
+        "course_id": "AMST204",
+        "semester": "202308",
+        "name": "Film and American Culture Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Exploration of the American film from a historical perspective, illustrating the motion picture's role as an institutional phenomenon, as a form of communication, and as a source of cross-cultural study.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "H"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST204-0101"
+        ]
+    },
+    {
+        "course_id": "AMST205",
+        "semester": "202308",
+        "name": "Material Aspects of American Life",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Historical survey of American material culture. Ways of describing and interpreting accumulated material evidence (e.g., buildings, town plans) introduced by stressing relationship between artifact and culture.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "HA"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST205-FC01",
+            "AMST205-FC02"
+        ]
+    },
+    {
+        "course_id": "AMST262",
+        "semester": "202308",
+        "name": "Houses, Schools, and Prisons in American Life",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "This interdisciplinary course explores the role of property, discipline, and punishment in American life. By exploring the ideological underpinnings in property, discipline, and punishment and their manifestations in houses, schools, and prisons we will explore how these entities reflect American society and its values.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP",
+                "SCIS"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST262-0101",
+            "AMST262-0102",
+            "AMST262-0103",
+            "AMST262-0104"
+        ]
+    },
+    {
+        "course_id": "AMST298Q",
+        "semester": "202308",
+        "name": "U.S. Latinx Literature and Culture",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Examines the poetry, prose, and theater of Latinx communities in the United States from their origins in the Spanish colonization of North America to their ongoing development in the 21st century. Considers how authors use literary form to gain insight into human experience, including mortality, religious belief, gender and sexuality, war and peace, family, language use, scientific inquiry, cultural tradition, ecology, and labor. Also studies how Latinx literary traditions have shaped and been shaped by broader currents in American literature, as well as what connections exist between Latinx literature and social and artistic developments in other parts of the world, particularly Latin America and the Caribbean. Authors may include Alvar Nunez Cabeza de Vaca, Eulalia Perez, Juan Nepomuceno Seguin, Maria Amparo Ruiz de Burton, Jose Marti, Arthur A. Schomburg, Jesus Colon, Julia de Burgos, Cesar Chavez, Ariel Dorfman, Gloria Anzaldua, Junot Diaz, and Cristina Garcia.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [
+            "H",
+            "D"
+        ],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: ENGL235.",
+            "also_offered_as": null,
+            "credit_granted_for": "ENGL235 or AMST298Q."
+        },
+        "sections": [
+            "AMST298Q-0101"
+        ]
+    },
+    {
+        "course_id": "AMST310",
+        "semester": "202308",
+        "name": "Introduction to Comparative Ethnic and Racial Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Introduces students to the study of race and ethnicity in the United States.  The class is organized according to the following five units: (1) Introduction; (2) Key concepts; (3) Mechanisms of racial formation; (4) Prevailing myths about race; and (5) Contemporary issues related to race and ethnicity. Through readings, film clips, and presentations, we will explore how the concept of race has developed and endured over time and become familiar with key concepts, such as \"race\" and \"intersectionality\". We will attempt to better understand how race is associated with other forms of difference, such as class, gender and ethnicity. We will identify and confront the prevailing myths about race and ethnicity in the United States. Finally, we examine the ways in which contemporary issues reveal the dynamics of race and ethnicity.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [
+            [
+                "DSHS",
+                "DVUP"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AMST328L and AAST398F.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: AAST310.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMST310, AAST398F, AAST310, or AMST328L."
+        },
+        "sections": [
+            "AMST310-0101"
+        ]
+    },
+    {
+        "course_id": "AMST315",
+        "semester": "202308",
+        "name": "Religion in American Culture",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Introduces students to the world's major religious traditions and examines how American culture informs, and is informed by, the variety of religious beliefs and practices in the U.S.  This course is primarily concerned with religion as a system of meaning.  The focus of the course is not on the history of religion or on analysis of religious texts, but rather on the meaning of a religion to its believers.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AMST328R.",
+            "restrictions": null,
+            "additional_info": "Recommended: AMST101.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMST315 or AMST328R."
+        },
+        "sections": [
+            "AMST315-0101"
+        ]
+    },
+    {
+        "course_id": "AMST320",
+        "semester": "202308",
+        "name": "(Dis)ability in American Film",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Explores the connection between film and disability through an analysis of independent and mainstream American films in various film genres. Specifically, we will consider how these film representations reflect and/or challenge the shifting social perspectives of disability over the 20th and 21st centuries.  Beginning with the presentation of disability as theatrical spectacle in the traveling sideshow and early cinema, we will work our way through film history to develop an understanding of our society's complicated relationship with disability.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU"
+            ],
+            [
+                "DSSP",
+                "DVUP"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AMST328X.",
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AMST320 or AMST328X."
+        },
+        "sections": [
+            "AMST320-0101"
+        ]
+    },
+    {
+        "course_id": "AMST324",
+        "semester": "202308",
+        "name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "An interdisciplinary course examines the experiences of children of Asian immigrants in the U.S., focusing on intergenerational dynamics in the Asian immigrant family, their intersections with race, gender, class, sexuality, and religion, and how these shape second-generation Asian American life. Topics include identity and personhood, the model minority myth and education, work and leisure, language and communication, filiality and disownment, mental health and suicide.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [
+            [
+                "DVCC"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "AAST398E.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: AAST394, IMMR394.",
+            "also_offered_as": null,
+            "credit_granted_for": "AAST394, AAST398E, AMST324, AMST328V, IMMR319G or IMMR394."
+        },
+        "sections": [
+            "AMST324-0101"
+        ]
+    },
+    {
+        "course_id": "AMST328D",
+        "semester": "202308",
+        "name": "Perspectives on Identity and Culture; Detention, Deportation and Displacement",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with AMST328D.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "USLT328D or AMST328D."
+        },
+        "sections": [
+            "AMST328D-0101"
+        ]
+    },
+    {
+        "course_id": "AMST328F",
+        "semester": "202308",
+        "name": "Perspectives on Identity and Culture; African American Public History",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with AASP398V and HIST329J.   This course analyzes the field of public history through the lens of African American history, considering the myriad ways beyond the classroom that African American history is circulated and consumed by the general public. By examining museums, historic sites, monuments, films and documentaries, and the digital landscape, students will examine and critique how historical narratives focusing on the experiences of peoples of African descent in the United States have been constructed in public spaces.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "HIST329J, AASP398V, or AMST328F."
+        },
+        "sections": [
+            "AMST328F-0101"
+        ]
+    },
+    {
+        "course_id": "AMST328K",
+        "semester": "202308",
+        "name": "Perspectives on Identity and Culture; Gender, Labor and Racial Identities in Diaspora Communities",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with AASP398G.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP398G or AMST328K."
+        },
+        "sections": [
+            "AMST328K-0101"
+        ]
+    },
+    {
+        "course_id": "AMST328M",
+        "semester": "202308",
+        "name": "Perspectives on Identity and Culture; Black Baltimore in the Post Racial U.S: African American Urban Culture in the Age of Obama",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with AASP398Q.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AASP398Q or AMST328M."
+        },
+        "sections": [
+            "AMST328M-0101"
+        ]
+    },
+    {
+        "course_id": "AMST328N",
+        "semester": "202308",
+        "name": "Perspectives on Identity and Culture; Introduction to Native American Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST328N-0101"
+        ]
+    },
+    {
+        "course_id": "AMST328W",
+        "semester": "202308",
+        "name": "Asian Americans in Film",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Explores how Asian Americans have historically been represented in the U.S. by Hollywood, and in turn, how independent and Hollywood Asian American filmmakers have represented themselves. It covers the history of racial, gendered, and sexualized representations of Asian Americans in Hollywood, as well as Asian American filmic responses within and outside Hollywood. It also introduces how four basic tools of film analysis mise-en-scene, cinematography, editing and sound work together to create meaning in moving images. It examines how these elements are put together in three different types of films by Asian American filmmakers: narrative, documentary, and experimental. How films function in society to circulate ideas that reproduce and challenge stereotypes about Asian Americans.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail",
+            "Audit"
+        ],
+        "gen_ed": [
+            [
+                "DSHU",
+                "DVUP"
+            ]
+        ],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": "398L.",
+            "restrictions": null,
+            "additional_info": "Cross-listed with: AAST355.",
+            "also_offered_as": null,
+            "credit_granted_for": "AAST355, AAST398L or AMST328W."
+        },
+        "sections": [
+            "AMST328W-0101"
+        ]
+    },
+    {
+        "course_id": "AMST340",
+        "semester": "202308",
+        "name": "Introduction to History, Theories and Methods in American Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Introduction to the process of interdisciplinary research, including research literatures, questions, first-hand sources and library and analytic methods in American Studies. Each student will craft a prospectus for original research.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "Must have completed AMST201; and 2 courses in AMST.",
+            "formerly": null,
+            "restrictions": "Must be in American Studies program; and sophomore standing or higher.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST340-0101"
+        ]
+    },
+    {
+        "course_id": "AMST386",
+        "semester": "202308",
+        "name": "Experiential Learning",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Restriction: Permission of ARHU-American Studies department; and junior standing or higher.",
+        "grading_method": [
+            "Regular",
+            "Pass-Fail"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST386-0401"
+        ]
+    },
+    {
+        "course_id": "AMST388",
+        "semester": "202308",
+        "name": "Honors Thesis",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMST398",
+        "semester": "202308",
+        "name": "Independent Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "1",
+        "description": "",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMST418H",
+        "semester": "202308",
+        "name": "Cultural Themes in America; Cultural Themes in America-Honors",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "At least three credit hours of prior coursework in AMST.",
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": []
+    },
+    {
+        "course_id": "AMST498B",
+        "semester": "202308",
+        "name": "Special Topics in American Studies; Revolutions and Diasporas",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with USLT498R.  This course investigates how revolutions in Latin America influenced the history of US immigration, refugee, and asylum policies and how they changed US history, culture, experience, geography, politics and the future.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "USLT498R or AMST498B."
+        },
+        "sections": [
+            "AMST498B-0101"
+        ]
+    },
+    {
+        "course_id": "AMST498C",
+        "semester": "202308",
+        "name": "Special Topics in American Studies; Central Americans and the United States: Culture, Politics, and Community",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with USLT498D.  With attention to history, memory, politics, and culture, explores the relationships, conflicts, and exchanges of people and power between the United States and the Central American isthmus. Through literature, feature films, documentary films, theatre, poetry, and other mediums, the course investigates the role of the US government and military, as well as US corporate interests and US-backed dictatorships, in the culture, politics, and economy of nations including El Salvador, Nicaragua, Guatemala, and Honduras.",
+        "grading_method": [
+            "Regular"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AMST498C or USLT498D."
+        },
+        "sections": [
+            "AMST498C-0101"
+        ]
+    },
+    {
+        "course_id": "AMST601",
+        "semester": "202308",
+        "name": "Introductory Theories and History in American Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Explores the formative literature, theories, research approaches, and history of American Studies.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": "Must not be a Graduate Advanced Special Student.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST601-0101"
+        ]
+    },
+    {
+        "course_id": "AMST628C",
+        "semester": "202308",
+        "name": "Seminar in American Studies; Approaches to Race and Media",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with WMST698E.  This class looks at foundational and new interdisciplinary scholarship on race and media. The course will explore topics such as media production, distribution, markets, representation, and audiences.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": "Permission of instructor.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AMST628C or WMST698E."
+        },
+        "sections": [
+            "AMST628C-0101"
+        ]
+    },
+    {
+        "course_id": "AMST628N",
+        "semester": "202308",
+        "name": "Seminar in American Studies; Space, Place, and Identity in the Digital Age",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST628N-0101"
+        ]
+    },
+    {
+        "course_id": "AMST629I",
+        "semester": "202308",
+        "name": "Seminar in American Studies; Material Culture and Internet Studies",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": null
+        },
+        "sections": [
+            "AMST629I-0101"
+        ]
+    },
+    {
+        "course_id": "AMST655",
+        "semester": "202308",
+        "name": "Introduction to Museum Scholarship",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Provides students a basic understanding of museums as cultural and intellectual institutions. Topics include the historical development of museums, museums as resources for scholarly study, and the museum exhibition as medium for presentation of scholarship.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": null,
+            "formerly": null,
+            "restrictions": null,
+            "additional_info": "Cross-listed with: ANTH655, HIST610, INST653.",
+            "also_offered_as": null,
+            "credit_granted_for": "AMST655, ANTH655, HIST610, INST728T or INST653."
+        },
+        "sections": [
+            "AMST655-0201"
+        ]
+    },
+    {
+        "course_id": "AMST659A",
+        "semester": "202308",
+        "name": "Special Topics: Collaborative Curation; The 1856 Project",
+        "dept_id": "AMST",
+        "department": "American Studies",
+        "credits": "3",
+        "description": "Cross-listed with ANTH659A, HIST688A, and INST788A.   Recommended: AMST856/ANTH856/HIST810, AMST857/ANTH857/HIST811.  Students enrolled in the MSMC (Museum Scholarship and Material Culture) certificate program will be given priority for enrollment. This seminar not only considers the history of curation and curators within the institutional setting of museums, it offers participants the opportunity, and challenge, to engage in curatorial practice by planning an exhibition that focuses on a critical aspect of life at and around the University of Maryland over the years. The initial run of this course will focus on the 1856 project at the University of Maryland, which focuses on three main areas of Black Life at and around the University of Maryland - Slavery and the Building of the Campus; Civil Rights, Black Student Activism, and the University; and the Relationship of the University to its Black Neighbors.",
+        "grading_method": [
+            "Regular",
+            "Audit"
+        ],
+        "gen_ed": [],
+        "core": [],
+        "relationships": {
+            "coreqs": null,
+            "prereqs": "AMST655/ANTH655/HIST610.",
+            "formerly": null,
+            "restrictions": "By permission only.",
+            "additional_info": null,
+            "also_offered_as": null,
+            "credit_granted_for": "AMST659, ANTH659A, HIST688A, or INST788A."
+        },
+        "sections": [
+            "AMST659A-0101"
+        ]
+    }
+]

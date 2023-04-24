@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- leaflet stuff -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+
+
+    <!-- include json files -->
+    <script type="application/json" src="resources/info/course_ids.json"></script>
+    <script type="application/json" src="resources/info/courses.json"></script>
+    <script type="application/json" src="resources/info/departments.json"></script>
+    <script type="application/json" src="resources/info/sections.json"></script>
+
+
+    <link rel="stylesheet" href="resources/stylesheets/colors.css">
+    <script type="text/javascript" src="resources/scripts/course-registration.js"></script>
+</head>
+<body>
+
+    <div id="unloaded">
+        <h1>Loading classes...</h1>
+        <p>This could take a second.</p>
+    </div>
+
+    <div id="loaded" hidden>
+        <nav>
+            <h1>Enter any course or course id:</h1>
+            <input id="searchbar" type="text">
+    
+            <h2>Filter:</h2>
+            <form action="">
+                <input type="reset" value="Clear Filter">
+                <label for="">Course:</label><br>
+                <input type="text">
+                <label for="">Section:</label><br>
+                <label for=""></label>
+                <input type="text">
+    
+                <input type="text">
+    
+                <hr>
+    
+    
+                <input type="submit" value="Search">
+            </form>
+        </nav>
+    
+    
+        <section id="results">
+            <!-- 
+    
+                likely will look sum like
+                <div class="department">
+                    <h1> -- contains department name and code
+                    <ul> -- 
+                        <li class="class">
+                        
+                -->
+        </section>
+    </div>
+</body>
+</html>
