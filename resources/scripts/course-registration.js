@@ -159,6 +159,8 @@ const main = async() => {
             return id[method](result) || name[method](result)
         })
 
+        result = result.slice(0, 100);
+
         // display as a unordered list
         search_results.innerHTML = 
             `<ul>${result.reduce((acc, item) => `${acc}${create_list_elem(item)}`, '')}</ul>`;
