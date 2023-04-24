@@ -2,6 +2,7 @@ let departments = {}; // determined while pulling for all class data
 let courses = {}; // determined while pulling for all class data
 let sections = {};
 let course_ids = new Set(); // used for filtering later.
+let buildings = [];
 
 
 // unfortunately, API calls had to be done beforehand. all information
@@ -21,6 +22,9 @@ const retrieve_classes = async () => {
 
     course_ids = await fetch("resources/info/course_ids.json");
     course_ids = await course_ids.json();
+
+    buildings = await fetch("resources/info/buildings.json");
+    buildings = await buildings.json();
 }
 
 const create_list_elem = (id) => {
@@ -40,7 +44,7 @@ const create_list_elem = (id) => {
         <div hidden>
             <hr>
             <p>${description}</p>
-            <div class="map" id="map${id}"></div>
+            <div id="map${id}"></div>
         </div>
     </li>
     <hr>
@@ -60,15 +64,16 @@ const create_departments_checkboxes = () => {
 }
 
 const toggle_sections = (class_div) => {
-    //
-    const class_code = class_div.id;
-    let map = class_div.getElementById(class_code + "map");
+
+    // assume we find this
+    const class_code = class_div.id.split("-")[0];;
+    const map_elem = document.getElementById("map" + class_code);
 
     // map already initialized
-    if (map.classList.contains("map")) return;
+    if (map_elem.classList.contains("map")) return;
     
     // place map on top of college park
-    map = L.map(map, {
+    const map = L.map(map_elem, {
         center: [38.987, -76.943],
         zoom: 13
     });
@@ -80,7 +85,13 @@ const toggle_sections = (class_div) => {
     }).addTo(map);
 
     // add in sections for class
+    const class_info = courses[class_code];
+    const class_sections = class_info.sections.map(e => sections[e])
+    class_sections[0]?.meetings.forEach(({building}) => {
 
+    })
+
+    map_elem.classList.add("map")
 }
 
 const main = async() => {
@@ -142,7 +153,7 @@ const main = async() => {
         search_results.innerHTML = 
             `<ul>${result.reduce((acc, item) => `${acc}${create_list_elem(item)}`, '')}</ul>`;
         
-        Array.from(search_results.getElementsByClassName("section-toggle"))
+        Array.from(search_results.getElementsByClassName("class-toggle"))
             .forEach(toggle => {
                 toggle.addEventListener("click", () => {
                     toggle_sections(toggle)
