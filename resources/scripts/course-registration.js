@@ -47,7 +47,6 @@ const create_list_elem = (id) => {
             <div id="map${id}"></div>
         </div>
     </li>
-    <hr>
     `
 }
 

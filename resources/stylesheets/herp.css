@@ -81,7 +81,7 @@ body > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
 }
 
 .class-label > div {
@@ -103,3 +103,26 @@ body > div {
 .class-toggle:checked ~ .class-label > img {
     rotate: 0deg;
 }
+
+#loaded {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+#results > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* creates 4 equal columns */
+    grid-gap: 6px;
+}
+
+#results > ul > li {
+    border: 1px solid black;
+}
+
+#results > ul > li > label {
+    height: 100px;
+}
+
+/* hr {
+    display: none;
+} */
