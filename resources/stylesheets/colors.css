@@ -21,3 +21,31 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+
+#global-nav {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#global-nav > button {
+    height: 35px;
+    aspect-ratio: 1;
+}
+
+#nav-logo > img {
+    height: 30px;
+    aspect-ratio: 1;
+}
+
+#nav-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-logo > h1 {
+    font-size: .75rem;
+}

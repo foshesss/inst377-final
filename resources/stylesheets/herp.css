@@ -70,7 +70,7 @@ body > div {
 .map {
     height: 350px;
     aspect-ratio: 1;
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
 
 .class-toggle {
@@ -90,6 +90,10 @@ body > div {
 
 .class-label-id {
     font-weight: bold;
+}
+
+.class > div {
+    padding: 0 1rem;
 }
 
 .class > div > hr {
@@ -121,6 +125,15 @@ body > div {
 
 #results > ul > li > label {
     height: 100px;
+}
+
+.class {
+    max-height: 100px;
+}
+
+.class-toggled {
+    /* big number */
+    max-height: 9001px; 
 }
 
 /* hr {
