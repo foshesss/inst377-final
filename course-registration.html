@@ -7,16 +7,29 @@
     <title>Testudo - Course Registration</title>
 
     <!-- include json files -->
-    <script type="application/json" src="resources/info/course_ids.json"></script>
-    <script type="application/json" src="resources/info/courses.json"></script>
-    <script type="application/json" src="resources/info/departments.json"></script>
-    <script type="application/json" src="resources/info/sections.json"></script>
+    <script type="application/json" src="data/course_ids.json"></script>
+    <script type="application/json" src="data/courses.json"></script>
+    <script type="application/json" src="data/departments.json"></script>
+    <script type="application/json" src="data/sections.json"></script>
 
     <!-- include stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/course-registration.css">
+    <link rel="stylesheet" href="css/registration-results.css">
+
+    <!-- load scripts -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+        crossorigin=""
+    ></script>
+    <script type="text/javascript" src="js/course-registration.js"></script>
 </head>
 <body>
+    <div id="unloaded">
+        <h1>Loading classes...</h1>
+    </div>
+    <div id="loaded">
     <nav id="global-nav">
         <!-- school logo -->
         <a id="nav-logo" href="./index.html">
@@ -72,5 +85,9 @@
             <input id="clear-filter-button" type="button" value="Clear Filter">
         </form>
     </nav>
+    <div id="results">
+        
+    </div>
+    </div>
 </body>
 </html>
