@@ -63,7 +63,7 @@ label > img {
 }
 
 .map {
-    height: 350px;
+    height: 300px;
     overflow: hidden;
     aspect-ratio: 1;
     margin: 1rem auto;
@@ -106,7 +106,7 @@ label > img {
 
 #results > ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* creates 4 equal columns */
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 6px;
 }
 
@@ -125,4 +125,16 @@ label > img {
 .class-toggled {
     /* big number */
     max-height: 9001px; 
+}
+
+@media screen and (min-width: 700px) {
+    #results > ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #results > ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
