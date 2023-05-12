@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+:root {
+    --red: #e21833;
+    --kinda-dark-red: #C21D2B;
+    --dark-red: #a22122;
+    --light-grey: #e8e8e8;
+    --dark-grey: #969696;
+    --black: #000000;
+    --white: #ffffff;
+    --gold: #d37d02;
+}
+
+#global-nav {
+    padding: .5rem;
+    font-size: .8rem;
+    background: var(--kinda-dark-red);
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+#nav-logo {
+    text-decoration: none;
+    color: var(--white);
+}

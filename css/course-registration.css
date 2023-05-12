@@ -1,0 +1,47 @@
+#main {
+    padding: 1rem;
+}
+
+.main-item > input {
+    display: none;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--light-grey);
+    padding: .75rem;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-label > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.class-label-code {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.class-label-name {
+    font-size: 1rem;
+}
+
+.checkbox-label > img {
+    height: 20px;
+    aspect-ratio: 1;
+}
+
+#search-container {
+    padding: 1rem;
+}
+
+#search-bar {
+    width: 100%;
+    padding: .5rem;
+}

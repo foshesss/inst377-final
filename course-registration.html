@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Testudo - Course Registration</title>
 
     <!-- include json files -->
     <script type="application/json" src="resources/info/course_ids.json"></script>
@@ -12,86 +12,65 @@
     <script type="application/json" src="resources/info/departments.json"></script>
     <script type="application/json" src="resources/info/sections.json"></script>
 
-    <!-- stylesheetz -->
-    <link rel="stylesheet" href="resources/stylesheets/herp.css">
-    <link rel="stylesheet" href="resources/stylesheets/colors.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-    crossorigin=""/>
-
-    <!-- code -->
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-    crossorigin=""></script>
-    <script type="text/javascript" src="resources/scripts/course-registration.js"></script>
+    <!-- include stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/course-registration.css">
 </head>
 <body>
+    <nav id="global-nav">
+        <!-- school logo -->
+        <a id="nav-logo" href="./index.html">
+            <h1>Testudo</h1>
+        </a>
+    </nav>
 
-    <div id="unloaded">
-        <h1>Loading classes...</h1>
-        <p>This could take a second.</p>
-    </div>
+    <nav id="search-container">
+        <h1>Search for a class:</h1>
+        <input id="search-bar" type="text" placeholder="Search by class keywords/code">
 
-    <div id="loaded" hidden>
-        <nav>
-            <input id="searchbar" type="text" placeholder="Search by class keywords/code">
-    
-            <h2>Filter:</h2>
-            <form id="filter-form">
-                <hr>
-                <div class="form-container">
-                    <input type="checkbox" id="departments-label" class="toggle">
-                    <label class="checkbox-label" for="departments-label">
-                        <span>Departments</span>
-                        <img src="resources/images/downarrow.png" alt="">
-                    </label>
-                    
-                    <div id="departments">
-
-                    </div>
+        <h2>Filter:</h2>
+        <form id="filter-form">
+            <hr>
+            <div class="form-container">
+                <label class="checkbox-label" for="departments-label">
+                    <span>Departments</span>
+                    <img src="images/arrow.png" alt="">
+                </label>
+                <input type="checkbox" id="departments-label" class="toggle">
+                
+                <div id="departments">
+                    <!-- fill with departments w/ js -->
                 </div>
-                <hr>
-                <div class="form-container">
-                    <input type="checkbox" id="credits-label" class="toggle">
-                    <label class="checkbox-label" for="credits-label">
-                        <span>Credits</span>
-                        <img src="resources/images/downarrow.png" alt="">
-                    </label>
+            </div>
+            <hr>
+            <div class="form-container">
+                <label class="checkbox-label" for="credits-label">
+                    <span>Credits</span>
+                    <img src="images/arrow.png" alt="">
+                </label>
+                <input type="checkbox" id="credits-label" class="toggle">
 
-                    <div>
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value="">>=</option>
-                            <option value="">=</option>
-                            <option value=""><=</option>
-                        </select>
-        
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value="">1.0</option>
-                            <option value="">2.0</option>
-                            <option value="">3.0</option>
-                            <option value="">4.0</option>
-                        </select>
-                    </div>
+                <div>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">>=</option>
+                        <option value="">=</option>
+                        <option value=""><=</option>
+                    </select>
+    
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">1.0</option>
+                        <option value="">2.0</option>
+                        <option value="">3.0</option>
+                        <option value="">4.0</option>
+                    </select>
                 </div>
-                <hr>
-    
-                <input id="clear-filter-button" type="button" value="Clear Filter">
-            </form>
-        </nav>
-        
-        <section id="results">
-            <!-- 
-    
-                likely will look sum like
-                <div class="department">
-                    <h1> -- contains department name and code
-                    <ul> -- 
-                        <li class="class">
-                        
-                -->
-        </section>
-    </div>
+            </div>
+            <hr>
+
+            <input id="clear-filter-button" type="button" value="Clear Filter">
+        </form>
+    </nav>
 </body>
 </html>

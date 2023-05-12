@@ -1,72 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
-    <title>Home | University of Maryland</title>
+    <title>Testudo - Home</title>
 
-    <link rel="stylesheet" href="resources/stylesheets/colors.css">
-    <link rel="stylesheet" href="resources/stylesheets/index.css">
+    <!-- include stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 
-    <script type="text/javascript" src="resources/scripts/index.js"></script>
 </head>
-
 <body>
     <nav id="global-nav">
-        <!-- hamburger menu -->
-        <button>
-            <img src="" alt="">
-        </button>
-
         <!-- school logo -->
         <div id="nav-logo">
-            <img src="resources/images/terp-logo.png" alt="">
             <h1>Testudo</h1>
         </div>
-
-        <!-- hamburger menu -->
-        <button>
-            <img src="" alt="">
-        </button>
     </nav>
 
     <div id="hero">
         <h1>Let's get you where you need to be.</h1>
-        <img id="register-now-img" src="resources/images/testudo.jpg" alt="">
+        <img id="register-now-img" src="images/testudo.jpg" alt="">
+        <p><i>"Fearless Ideas: A campaign of ideas and promise, inclusion, and opportunity."</i></p>
 
-        <a id="register-for-classes" href="">
-            <img src="resources/images/student-registration.png" alt="">
+        <!-- <a id="register-for-classes" href="">
             Register for classes
-        </a>
+        </a> -->
 
         <div id="search-bar">
-            <img class="search-icon" src="magnifying-glass.png" alt="Search">
-            <input type="text" placeholder="Need something else?">
-            <button type="submit">Search</button>
-        </div>
-
-
-    </div>
-
-    <div id="register-container">
-        <img id="register-now-img" src="resources/images/umd-2.jpg" alt="">
-        <div id="register-now-info">
-            <h1>Summer registration is now open!</h1>
-            <p>Over 500 classes available for undergraduate and graduate students!</p>
+            <a id="register-for-classes" href="./course-registration.html">
+                Register for classes
+            </a>
+            <!-- <img class="search-icon" src="magnifying-glass.png" alt="Search">
+            <input type="text" placeholder="This is a cosmetic search bar">
+            <button type="submit">Search</button> -->
         </div>
     </div>
 
-    <!-- hero -->
-    <section id="hero">
-        <div id="hero-head">
+    <!-- options -->
+    <section id="options">
+        <div id="options-head">
             <h1>Lets get you where you need</h1>
             <p>Select a category</p>
         </div>
-        <section id="hero-sections">
-            <div class="hero-section">
+        <section id="options-sections">
+            <div class="options-section">
                 <label class="checkbox-label" for="general-info">
                     <!-- header -->
                     <span>General Information</span>
@@ -92,7 +71,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="hero-section">
+            <div class="options-section">
                 <label class="checkbox-label" for="course-regis">
                     <!-- header -->
                     <span>Course Registration, Campus Map, and Calendar</span>
@@ -126,7 +105,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="hero-section">
+            <div class="options-section">
                 <label class="checkbox-label" for="enrollment">
                     <!-- header -->
                     <span>Enrollment</span>
@@ -159,7 +138,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="hero-section">
+            <div class="options-section">
                 <label class="checkbox-label" for="cost-and-budgeting">
                     <!-- header -->
                     <span>Cost and Budgeting</span>
@@ -183,7 +162,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="hero-section">
+            <div class="options-section">
                 <label class="checkbox-label" for="campus-services">
                     <!-- header -->
                     <span>Campus Services</span>
@@ -211,7 +190,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="hero-section">
+            <div class="options-section">
                 <label class="checkbox-label" for="student-records">
                     <!-- header -->
                     <span>Student Records</span>
@@ -269,4 +248,5 @@
     </p>
 </footer>
 
+<script type="text/javascript" src="js/index.js"></script>
 </html>

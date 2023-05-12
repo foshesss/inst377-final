@@ -1,0 +1,102 @@
+#hero {
+    --hero-padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    padding: 2rem var(--hero-padding);
+    height: 650px;
+    gap: 1rem;
+    background: var(--light-grey);
+}
+
+#hero > h1 {
+    font-size: 2.5rem;
+}
+
+#register-now-img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#register-for-classes {
+    padding: 1rem .5rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    width: 75%;
+
+    font-size: 1.125rem;
+    color: white;
+    background: var(--kinda-dark-red);
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.25);
+}
+
+#hero > p {
+    text-align: center;
+}
+
+/* hero searhc bar */
+#search-bar {
+    width: calc(100% - 2*var(--hero-padding));
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 80px;
+    align-items: center;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+#options-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.options-section {
+    border: 1px solid black;
+}
+
+.options-section > * {
+    padding: .5rem;
+    display: block;
+}
+
+
+.options-section input {
+    display: none;
+}
+
+.options-section > label {
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.options-section > div {
+    display: none;
+    padding-top: 0;
+}
+
+.options-section ul {
+    list-style: none;
+}
+
+footer {
+    background: var(--light-grey);
+    padding: 1rem;
+}
+
+
+
+
