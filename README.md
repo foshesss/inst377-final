@@ -1,5 +1,8 @@
 # Testudo Website Redesign
-Final deployment: https://foshesss.github.io/inst377-final/
+This redesign involves the creation of two pages:
+- https://foshesss.github.io/inst377-final/ (index page)
+- https://foshesss.github.io/inst377-final/course-registration.html (classes page)
+
 - Description of target browsers (iOS? Android? Which ones? Which versions?)
 The goal is that every browser is supported with the design, so you should be able to load
 the website on any device without a problem.
