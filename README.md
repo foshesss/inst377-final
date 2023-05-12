@@ -22,3 +22,6 @@ No CSS frameworks were used in this project.
 
 - What is your actual project trying to display and solve?
 This project is attempting to recreate Testudo-- harnessing a more intuitive design. I wanted to make sure that the website was not confusing for first-time viewers.
+
+- Additional comments
+Using localStorage, it's possible to save search queries. If a user was to search up a class, once they return to the page (if they left), they'd have the same query loaded in-- the page would be identical to how it was when they left.

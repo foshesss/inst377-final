@@ -70,7 +70,7 @@ const toggle_sections = (class_div) => {
     const class_container = document.getElementById("class" + class_code);
     const method = class_container .classList.contains("class-toggled") ? "remove" : "add";
     class_container .classList[method]("class-toggled");
-    
+
     const map_elem = document.getElementById("map" + class_code);
 
     // map already initialized
@@ -145,6 +145,7 @@ const main = async() => {
     const make_search = (result) => {
         if (result.length === 0) {
             // hide results. nothing to filter here
+            localStorage.clear()
             search_results.innerHTML = ""
             return;
         }
