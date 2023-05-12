@@ -47,9 +47,8 @@ label > img {
     transition: rotate 90ms ease-out;
 }
 
-
-body > div {
-    padding: 0 1rem;
+#unloaded {
+    padding: 1rem;
 }
 
 #clear-filter-button {
@@ -65,6 +64,7 @@ body > div {
 
 .map {
     height: 350px;
+    overflow: hidden;
     aspect-ratio: 1;
     margin: 1rem auto;
 }
@@ -104,11 +104,6 @@ body > div {
     rotate: 0deg;
 }
 
-#loaded {
-    margin: 0 auto;
-    max-width: 900px;
-}
-
 #results > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* creates 4 equal columns */
@@ -131,7 +126,3 @@ body > div {
     /* big number */
     max-height: 9001px; 
 }
-
-/* hr {
-    display: none;
-} */

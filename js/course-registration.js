@@ -24,7 +24,7 @@ const retrieve_classes = async () => {
     course_ids = await course_ids.json();
 
     buildings = await fetch("data/buildings.json");
-    buildings = await buildings.json();
+    buildings = await buildings.json();    
 }
 
 const create_list_elem = (id) => {
@@ -65,7 +65,12 @@ const create_departments_checkboxes = () => {
 const toggle_sections = (class_div) => {
 
     // assume we find this
-    const class_code = class_div.id.split("-")[0];;
+    const class_code = class_div.id.split("-")[0];
+
+    const class_container = document.getElementById("class" + class_code);
+    const method = class_container .classList.contains("class-toggled") ? "remove" : "add";
+    class_container .classList[method]("class-toggled");
+    
     const map_elem = document.getElementById("map" + class_code);
 
     // map already initialized
@@ -98,8 +103,7 @@ const toggle_sections = (class_div) => {
         })
     })
 
-    map_elem.classList.add("map")
-
+    map_elem.classList.add("map");
     L.Util.requestAnimFrame(map.invalidateSize,map,!1,map._container);
 }
 
@@ -138,8 +142,7 @@ const main = async() => {
 
     // dynamic search bar
     const search_bar = document.getElementById("search-bar");
-    search_bar.addEventListener("input", () => {
-        let result = search_bar.value.toLowerCase();
+    const make_search = (result) => {
         if (result.length === 0) {
             // hide results. nothing to filter here
             search_results.innerHTML = ""
@@ -171,7 +174,20 @@ const main = async() => {
                 })
             }
         )
+    }
+
+    search_bar.addEventListener("input", () => {
+        let result = search_bar.value.toLowerCase();
+        localStorage.setItem("last-query", result);
+        make_search(result);
     });
+
+    const last_query = localStorage.getItem("last-query")
+
+    if (last_query) {
+        search_bar.value = last_query
+        make_search(last_query)
+    }
 }
 
 document.addEventListener("DOMContentLoaded", main);
