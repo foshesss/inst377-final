@@ -39,20 +39,44 @@ label > img {
 }
 
 #results > ul {
+    --gap-size: 6px;
+    --num-cells: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-size);
+
     padding: 1rem;
     padding-top: 0;
+    list-style: none;
 }
+
+#results > ul > * {
+    /* this function was literally created out of me guessing */
+    /* i originally thought only the first 2 lines were necessary */
+
+    width: calc(
+        100%/var(--num-cells) -  
+        var(--gap-size) * (var(--num-cells) - 1) +
+        2px * max(var(--num-cells) - 2, 0) +
+        3px * (var(--num-cells) - 1)
+    )
+}
+
 
 #unloaded {
     padding: 1rem;
 }
 
-#results > ul {
-    list-style: none;
+#loaded {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .map {
-    height: 300px;
+    display: none;
+    min-height: 250px;
+    min-width: 250px;
     overflow: hidden;
     aspect-ratio: 1;
     margin: 1rem auto;
@@ -118,8 +142,6 @@ label > img {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 1rem;
-    padding-top: 0;
 }
 
 .course-profile-header {
@@ -185,35 +207,36 @@ label > img {
     position: relative;
     display: flex;
     flex-direction: row;
-    border-bottom: solid var(--lighter-grey) 1px;
+    padding: 1rem;
+    padding-top: 0;
+    gap: 1rem;
 }
 
 .course-profile-restrictions, .course-profile-label {
     display: none;
 }
 
+.course-profile-container {
+    z-index: 7;
+    border: solid 1px white;
+    width: calc(100% * var(--num-cells) + var(--gap-size) * (var(--num-cells) - 1));
+}
+
+.course-general-info {
+    display: flex;
+}
+
+
+
 @media screen and (min-width: 700px) {
     #results > ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-    }
-
-    #results > ul > * {
-        width: calc(100%/2 - 6px)
+        --num-cells: 2;
     }
 
     .course-profile-label {
         display: inline-block;
         font-size: 2rem;
         font-weight: bold;
-    }
-
-    .course-profile-container {
-        z-index: 7;
-        border-top: solid 2px white;
-        width: calc(200% + 6px);
-        max-width: calc(200% + 6px);
     }
     
     .course-sections {
@@ -226,11 +249,34 @@ label > img {
         border: 1px solid var(--light-grey);
         border-radius: 3px;
         padding: 1rem;
+        min-width: 250px;
+        max-width: 250px;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 700px) and (max-width: 999px) {
+    .class:nth-child(2n) .course-profile-container  {
+        position: relative;
+        left: calc(-100% - var(--gap-size));
+    }
+}
+
+@media screen and (min-width: 1000px) {
     #results > ul {
-        grid-template-columns: repeat(3, 1fr);
+        --num-cells: 3;
+    }
+
+    .map {
+        display: block;
+    }
+
+    .class:nth-child(3n+2) .course-profile-container  {
+        position: relative;
+        left: calc(-100% - var(--gap-size));
+    }
+
+    .class:nth-child(3n) .course-profile-container  {
+        position: relative;
+        left: calc(-200% - var(--gap-size) * 2);
     }
 }

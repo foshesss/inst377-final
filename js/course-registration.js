@@ -70,9 +70,37 @@ const get_course_sections_html = course_id => {
     return html
 }
 
+const relationship_dict = {
+    'prereqs': "Prerequisite",
+    'coreqs': "Corequisite",
+    'formerly': "Formerly",
+    'restrictions': "Restriction",
+    'additional_info': "Additional info",
+    'also_offered_as': "Also offered as",
+    'credit_granted_for': "Credit granted for"
+}
+
+const create_additional_info_html = (id) => {
+    const {relationships} = courses[id];
+
+    let html = "";
+
+    
+    for (let key in relationship_dict) {
+        const value = relationships[key]
+        if (value === null) continue;
+
+        html += `<p><b>${relationship_dict[key]}:</b><br>${value}</p><br>`;
+    }
+
+    html = html === "" ? "No additional course information found." : html;
+
+    return html;
+}
+
 const create_list_elem = id => {
     const {name, description, credits} = courses[id]
-    
+
     return `
     <li class="class" id="class${id}">
         <input type="checkbox" id="${id}-label" class="class-toggle">
@@ -88,10 +116,14 @@ const create_list_elem = id => {
         <div hidden>
             <div class="course-profile-container">
                 <div class="course-profile">
-                    <div>
-                        <h1 class="course-profile-label">${id}</h1>
-                        <h1 class="course-profile-header">Course Profile</h1>
-                        <p class="course-description">${description}</p>
+                    <div class="course-general-info">
+                        <div>
+                            <h1 class="course-profile-label">${id}</h1>
+                            <h1 class="course-profile-header">Course Profile</h1>
+                            <p class="course-description">${description}</p>
+                        </div>
+
+                        <div id="map${id}"></div>
                     </div>
 
                     <div class="course-sections">
@@ -101,7 +133,9 @@ const create_list_elem = id => {
                     <p class="course-credits">Credits: ${credits}</p>
                 </div>
                 <div class="course-profile-restrictions">
-                    <h1>Restrictions</h1>
+                    <h3>Additional Course Information</h3>
+                    <hr>
+                    ${create_additional_info_html(id)}
                 </div>
             </div>
         </div>
@@ -122,15 +156,26 @@ const create_departments_checkboxes = () => {
     , "")
 }
 
+let currently_open;
+
 const toggle_sections = (class_div) => {
 
     // assume we find this
     const class_code = class_div.id.split("-")[0];
 
     const class_container = document.getElementById("class" + class_code);
-    const method = class_container .classList.contains("class-toggled") ? "remove" : "add";
-    class_container .classList[method]("class-toggled");
+    const method = class_container.classList.contains("class-toggled") ? "remove" : "add";
 
+    // close others
+    if (method === "add") {
+        const opened = Array.from(document.getElementsByClassName("class-toggled"))
+        opened.forEach(e => {
+            e.classList.remove("class-toggled")
+            e.querySelector("input").checked= false
+        })
+    }
+
+    class_container.classList[method]("class-toggled");
     const map_elem = document.getElementById("map" + class_code);
 
     // map already initialized
