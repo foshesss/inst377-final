@@ -8,14 +8,6 @@ hr {
     border-color: var(--lighter-grey);
 }
 
-#filter-menu-button {
-    padding: .45rem .9rem;
-    font-size: .85rem;
-    border-radius: 100px;
-    border: 2px solid var(--kinda-dark-red);
-    font-weight: 600;
-}
-
 #filter-menu {
     background: red;
     position: fixed;
@@ -30,7 +22,6 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    display: none;
 }
 
 #filter-menu-top-bar {

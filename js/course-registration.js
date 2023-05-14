@@ -71,7 +71,6 @@ const get_course_sections_html = course_id => {
 }
 
 const create_list_elem = id => {
-    const info = courses[id]
     const {name, description, credits} = courses[id]
     
     return `
@@ -87,16 +86,23 @@ const create_list_elem = id => {
         </label>
 
         <div hidden>
-            <div class="course-profile">
-                <div>
-                    <h1 class="course-profile-header">Course Profile</h1>
-                    <p class="course-description">${description}</p>
-                </div>
+            <div class="course-profile-container">
+                <div class="course-profile">
+                    <div>
+                        <h1 class="course-profile-label">${id}</h1>
+                        <h1 class="course-profile-header">Course Profile</h1>
+                        <p class="course-description">${description}</p>
+                    </div>
 
-                <div class="course-sections">
-                    ${get_course_sections_html(id)}
+                    <div class="course-sections">
+                        ${get_course_sections_html(id)}
+                    </div>
+
+                    <p class="course-credits">Credits: ${credits}</p>
                 </div>
-                <p class="course-credits">Credits: ${credits}</p>
+                <div class="course-profile-restrictions">
+                    <h1>Restrictions</h1>
+                </div>
             </div>
         </div>
         <hr>
@@ -175,28 +181,13 @@ const main = async() => {
     document.getElementById("filter-departments").innerHTML = create_departments_checkboxes()
 
     const filter_form = document.getElementById("filter-menu")
-    const inputs = Array.from(filter_form.getElementsByTagName("input"));
-    const selects = Array.from(filter_form.getElementsByTagName("select"));
-    // const clear_filter_button = document.getElementById("clear-filter-button")
-
-    // clear_filter_button.addEventListener("click", () => {
-    //     // clear inputs
-    //     inputs.forEach(input => {
-    //         if (input.classList.contains("toggle") || input == clear_filter_button) return
-            
-    //         input.value = "";
-    //         input.checked = false;
-    //     })
-
-    //     // clear selects
-    //     selects.forEach(select => {
-    //         select.selectedIndex = 0;
-    //     })
-    // })
-
     const search_results = document.getElementById("results")
 
+    const selected_departments = new Set()
+
     // dynamic search bar
+    let operator = ">=";
+    let operator_value = 0;
     const search_bar = document.getElementById("search-bar");
     const make_search = (result) => {
         if (result.length === 0) {
@@ -212,13 +203,24 @@ const main = async() => {
 
         // filter this mofo
         result = course_ids.filter(id => {
-            let {name} = courses[id];
+            let {name, dept_id, credits} = courses[id];
+
+            let compatible_credits = false;
+            if (operator === "=") {
+                compatible_credits = credits === operator_value;
+            } else if (operator === "<=") {
+                compatible_credits = credits <= operator_value;
+            } else { // can assume this is ">="
+                compatible_credits = credits >= operator_value;
+            }
+
             name = name.toLowerCase();
             id = id.toLowerCase();
-            return id[method](result) || name[method](result)
+            return compatible_credits && (id[method](result) || name[method](result)) && 
+                (selected_departments.size === 0 || selected_departments.has(dept_id))
         })
 
-        result = result.slice(0, 100);
+        result = result.slice(0, 50);
 
         // display as a unordered list
         search_results.innerHTML = 
@@ -239,20 +241,22 @@ const main = async() => {
         make_search(result);
     });
 
-    const last_query = localStorage.getItem("last-query")
+    const last_query = localStorage.getItem("last-query") || ""
+    search_bar.value = last_query
+    make_search(last_query)
 
-    if (last_query) {
-        search_bar.value = last_query
-        make_search(last_query)
-    }
-
-    make_search("")
-
+    
+    const filter_button = document.getElementById("filter-menu-button");
     const toggle_filter_form = (turn_on) => {
         if (turn_on) {
+            filter_form.style.display = "flex";
+            filter_button.classList.add("selected-button");
+            filter_button.classList.remove("unselected-button");
             loaded_elem.style.overflow = "hidden";
             loaded_elem.style.height = "100vh";
         } else {
+            filter_button.classList.remove("selected-button");
+            filter_button.classList.add("unselected-button");
             filter_form.style.display = "none";
             loaded_elem.style.overflow = "auto";
             loaded_elem.style.height = "none";
@@ -261,13 +265,51 @@ const main = async() => {
 
     // mobile form menu stuff
     filter_form.style.display = "none";
-    
+
     document.addEventListener("click", function(event) {
-        if (!filter_form.contains(event.target) && filter_form.style.display != "none") {
+        const {target} = event;
+
+        if (target === filter_button) {
+            toggle_filter_form(filter_form.style.display === "none");
+        } else if ((!filter_form.contains(event.target) && filter_form.style.display != "none")) {
             event.preventDefault()
             toggle_filter_form(false);
         }
     });
+
+    // make it so i can close filter menu
+    document.getElementById("close-filter-menu-button").addEventListener("click", () => {
+        toggle_filter_form(false)
+    })
+
+    // add in filter functionality
+    const department_buttons = filter_form.querySelectorAll("input")
+
+    department_buttons.forEach(input => {
+        input.addEventListener("input", (event) => {
+            const method = event.target.checked ? "add" : "delete";
+            selected_departments[method](event.target.name);
+            make_search(localStorage.getItem("last-query") || "");
+        })
+    })
+
+
+    const operator_filter = document.getElementById("operator-filter");
+    const update_operator_filter = () => {
+        operator = operator_filter.value;
+        make_search(localStorage.getItem("last-query") || "");
+    }
+    operator_filter.addEventListener("input", update_operator_filter);
+    update_operator_filter();
+
+    const operator_value_filter = document.getElementById("operator-value-filter");
+    const update_operator_value_filter = () => {
+        operator_value = operator_value_filter.value;
+        make_search(localStorage.getItem("last-query") || "");
+    }
+    operator_value_filter.addEventListener("input", update_operator_value_filter);
+    update_operator_value_filter();
+
 }
 
 document.addEventListener("DOMContentLoaded", main);

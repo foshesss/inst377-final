@@ -45,7 +45,7 @@
             <input id="search-bar" type="text" placeholder="Search by class keywords/code">
             <div id="filters">
                 <h1>Courses:</h1>
-                <button class="unselected-filter-button" id="filter-menu-button">
+                <button class="call-to-action-button unselected-button" id="filter-menu-button">
                     Filter Menu
                 </button>
             </div>
@@ -56,26 +56,25 @@
         <div id="filter-menu">
             <div id="filter-menu-top-bar">
                 <p>Filter</p>
-                <p>X</p>
+                <p id="close-filter-menu-button">X</p>
             </div>
             <hr>
             <div id="filter-menu-items">
                 <div>
                     <p>Credits</p>
                     <div>
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value="">>=</option>
-                            <option value="">=</option>
-                            <option value=""><=</option>
+                        <select name="" id="operator-filter">
+                            <option value=">=">>=</option>
+                            <option value="=">=</option>
+                            <option value="<="><=</option>
                         </select>
         
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value="">1.0</option>
-                            <option value="">2.0</option>
-                            <option value="">3.0</option>
-                            <option value="">4.0</option>
+                        <select name="" id="operator-value-filter">
+                            <option value="0">0.0</option>
+                            <option value="1">1.0</option>
+                            <option value="2">2.0</option>
+                            <option value="3">3.0</option>
+                            <option value="4">4.0</option>
                         </select>
                     </div>
                 </div>
