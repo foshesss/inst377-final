@@ -225,6 +225,7 @@ label > img {
 
 .course-general-info {
     display: flex;
+    gap: 1rem;
 }
 
 
