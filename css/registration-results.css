@@ -1,33 +1,24 @@
-
-/* split this up to make it easier to digest */
+#search-bar-container {
+    margin: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
 #search-bar {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: .5rem 1rem;
-    border-radius: 6px;
-    border: solid 1px black;
-    margin: 1rem;
+    padding: .8rem 1.1rem;
+    border-radius: 5rem;
+    border: solid 1px var(--light-grey);
+    background: white;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
 }
 
-.form-container > input {
-    display: none;
-}
-
-.form-container > input:checked ~ .checkbox-label > img {
-    rotate: 0deg;
-}
-
-.form-container > input:checked ~ div {
-    display: grid;
-}
-
-.form-container > div {
-    display: none;
-    grid-template-columns: repeat(4, 1fr); /* creates 4 equal columns */
-    grid-gap: 6px;
-    padding: 6px;
+#search-bar:focus {
+    outline: solid 1px black;
 }
 
 .checkbox-label {
@@ -47,15 +38,13 @@ label > img {
     transition: rotate 90ms ease-out;
 }
 
-#unloaded {
+#results > ul {
     padding: 1rem;
+    padding-top: 0;
 }
 
-#clear-filter-button {
-    border: solid 1px black;
-    padding: .25rem .5rem;
-    margin: 1rem 0;
-    border-radius: 6px;
+#unloaded {
+    padding: 1rem;
 }
 
 #results > ul {
@@ -77,7 +66,10 @@ label > img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    cursor: pointer;
 }
 
 .class-label > div {
@@ -85,11 +77,15 @@ label > img {
 }
 
 .class-label-id {
+    color: var(--kinda-dark-red);
     font-weight: bold;
+    font-size: 1.35rem;
+    letter-spacing: .15px;
 }
 
-.class > div {
-    padding: 0 1rem;
+.class-label-name {
+    font-weight: 300;
+    color: var(--darker-grey);
 }
 
 .class > div > hr {
@@ -110,20 +106,16 @@ label > img {
     grid-gap: 6px;
 }
 
-#results > ul > li {
-    border: 1px solid black;
-}
 
 #results > ul > li > label {
-    height: 100px;
+    height: 145px;
 }
 
 .class {
-    max-height: 100px;
+    max-height: 145px;
 }
 
 .class-toggled {
-    /* big number */
     max-height: 9001px; 
 }
 
@@ -137,4 +129,71 @@ label > img {
     #results > ul {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.course-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.course-profile-header {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.course-credits {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--darker-grey);
+}
+
+.course-description {
+    font-weight: 300;
+    color: var(--darker-grey);
+}
+
+.course-section-number {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.course-sections {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--light-grey);
+    border-radius: 3px;
+    max-height: 600px;
+    overflow: scroll;
+}
+
+.course-sections > div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-weight: 300;
+    padding: .85rem;
+}
+
+.course-sections > div:nth-child(odd) {
+    background: var(--light-grey);
+}
+
+.course-section > div {
+    padding-left: .5rem;
+}
+
+
+.actual-section-number {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#top-header {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
 }

@@ -1,4 +1,4 @@
-#main {
+/* #main {
     padding: 1rem;
 }
 
@@ -12,13 +12,13 @@
     justify-content: space-between;
     background: var(--light-grey);
     padding: .75rem;
-}
+} */
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
     display: none;
-}
+} */
 
-.checkbox-label > div {
+/* .checkbox-label > div {
     display: flex;
     flex-direction: column;
 }
@@ -38,10 +38,10 @@ input[type="checkbox"] {
 }
 
 #search-container {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 #search-bar {
     width: 100%;
     padding: .5rem;
-}
+} */

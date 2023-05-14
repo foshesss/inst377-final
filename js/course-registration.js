@@ -27,8 +27,53 @@ const retrieve_classes = async () => {
     buildings = await buildings.json();    
 }
 
-const create_list_elem = (id) => {
-    const {name, description} = courses[id]
+// used to contruct the 'sections' html
+const get_course_sections_html = course_id => {
+    const course_sections = courses[course_id].sections;
+    if (course_sections === undefined) return "";
+
+    let html = ""
+
+    course_sections.sort()
+    course_sections.forEach(section_id => {
+        const section_info = sections[section_id];
+        const instructor = section_info.instructors[0] || "TBA";
+
+        html += `
+            <div>
+                <div class="course-section-number">
+                    <p class="actual-section-number">${section_info.number}</p>
+                    <p>(Open seats: ${section_info.open_seats})</p>
+                </div>
+
+                ${
+                    section_info.meetings.reduce((prev, section_info) => {
+                        return prev + `
+                            <div class="course-section">
+                                <p>${section_info.classtype === "" ? "Lecture" : section_info.classtype}</p>
+                                <div>
+                                    <p>${section_info.days} ${section_info.start_time}-${section_info.end_time}</p>
+                                    <p>${section_info.building} ${section_info.room}</p>
+                                </div>
+                            </div>
+                      `
+                    }, "")
+
+                }
+                <div>
+                    <p>Instructor: ${instructor}</p>
+                </div>
+            </div>
+        `
+    })
+
+    return html
+}
+
+const create_list_elem = id => {
+    const info = courses[id]
+    const {name, description, credits} = courses[id]
+    
     return `
     <li class="class" id="class${id}">
         <input type="checkbox" id="${id}-label" class="class-toggle">
@@ -42,10 +87,19 @@ const create_list_elem = (id) => {
         </label>
 
         <div hidden>
-            <hr>
-            <p>${description}</p>
-            <div id="map${id}"></div>
+            <div class="course-profile">
+                <div>
+                    <h1 class="course-profile-header">Course Profile</h1>
+                    <p class="course-description">${description}</p>
+                </div>
+
+                <div class="course-sections">
+                    ${get_course_sections_html(id)}
+                </div>
+                <p class="course-credits">Credits: ${credits}</p>
+            </div>
         </div>
+        <hr>
     </li>
     `
 }
@@ -114,29 +168,31 @@ const main = async() => {
 
     // class_info and department_info are now available
     document.getElementById("unloaded").style.display = "none";
-    document.getElementById("loaded").style.display = "block";
 
-    document.getElementById("departments").innerHTML = create_departments_checkboxes()
+    const loaded_elem = document.getElementById("loaded")
+    loaded_elem.style.display = "block";
 
-    const filter_form = document.getElementById("filter-form")
+    document.getElementById("filter-departments").innerHTML = create_departments_checkboxes()
+
+    const filter_form = document.getElementById("filter-menu")
     const inputs = Array.from(filter_form.getElementsByTagName("input"));
     const selects = Array.from(filter_form.getElementsByTagName("select"));
-    const clear_filter_button = document.getElementById("clear-filter-button")
+    // const clear_filter_button = document.getElementById("clear-filter-button")
 
-    clear_filter_button.addEventListener("click", () => {
-        // clear inputs
-        inputs.forEach(input => {
-            if (input.classList.contains("toggle") || input == clear_filter_button) return
+    // clear_filter_button.addEventListener("click", () => {
+    //     // clear inputs
+    //     inputs.forEach(input => {
+    //         if (input.classList.contains("toggle") || input == clear_filter_button) return
             
-            input.value = "";
-            input.checked = false;
-        })
+    //         input.value = "";
+    //         input.checked = false;
+    //     })
 
-        // clear selects
-        selects.forEach(select => {
-            select.selectedIndex = 0;
-        })
-    })
+    //     // clear selects
+    //     selects.forEach(select => {
+    //         select.selectedIndex = 0;
+    //     })
+    // })
 
     const search_results = document.getElementById("results")
 
@@ -146,8 +202,8 @@ const main = async() => {
         if (result.length === 0) {
             // hide results. nothing to filter here
             localStorage.clear()
-            search_results.innerHTML = ""
-            return;
+            // search_results.innerHTML = ""
+            // return;
         }
 
         // only do starts with when it's one letter (or else we'd get)
@@ -189,6 +245,29 @@ const main = async() => {
         search_bar.value = last_query
         make_search(last_query)
     }
+
+    make_search("")
+
+    const toggle_filter_form = (turn_on) => {
+        if (turn_on) {
+            loaded_elem.style.overflow = "hidden";
+            loaded_elem.style.height = "100vh";
+        } else {
+            filter_form.style.display = "none";
+            loaded_elem.style.overflow = "auto";
+            loaded_elem.style.height = "none";
+        }
+    }
+
+    // mobile form menu stuff
+    filter_form.style.display = "none";
+    
+    document.addEventListener("click", function(event) {
+        if (!filter_form.contains(event.target) && filter_form.style.display != "none") {
+            event.preventDefault()
+            toggle_filter_form(false);
+        }
+    });
 }
 
 document.addEventListener("DOMContentLoaded", main);

@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 :root {
     --red: #e21833;
     --kinda-dark-red: #C21D2B;
     --dark-red: #a22122;
+    --lighter-grey: #F6F6F6;
     --light-grey: #e8e8e8;
     --dark-grey: #969696;
+    --darker-grey: #5A5A5A;
     --black: #000000;
     --white: #ffffff;
     --gold: #d37d02;
 }
 
 #global-nav {
-    padding: .5rem;
+    padding: 1rem;
     font-size: .8rem;
     background: var(--kinda-dark-red);
     color: white;
@@ -24,6 +29,11 @@
 }
 
 #nav-logo {
-    text-decoration: none;
-    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-logo > img {
+    max-width: 200px;
 }

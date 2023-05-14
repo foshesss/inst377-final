@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/course-registration.css">
     <link rel="stylesheet" href="css/registration-results.css">
+    <link rel="stylesheet" href="css/filter-form.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
     crossorigin=""/>
@@ -35,57 +36,58 @@
     <nav id="global-nav">
         <!-- school logo -->
         <a id="nav-logo" href="./index.html">
-            <h1>Testudo</h1>
+            <img src="/images/umd-logo.svg" alt="University of Maryland">
         </a>
     </nav>
 
     <nav id="search-container">
-        <h1>Search for a class:</h1>
-        <input id="search-bar" type="text" placeholder="Search by class keywords/code">
-
-        <h2>Filter:</h2>
-        <form id="filter-form">
-            <hr>
-            <div class="form-container">
-                <label class="checkbox-label" for="departments-label">
-                    <span>Departments</span>
-                    <img src="images/arrow.png" alt="">
-                </label>
-                <input type="checkbox" id="departments-label" class="toggle">
-                
-                <div id="departments">
-                    <!-- fill with departments w/ js -->
-                </div>
+        <div id="search-bar-container">
+            <input id="search-bar" type="text" placeholder="Search by class keywords/code">
+            <div id="filters">
+                <h1>Courses:</h1>
+                <button class="unselected-filter-button" id="filter-menu-button">
+                    Filter Menu
+                </button>
             </div>
             <hr>
-            <div class="form-container">
-                <label class="checkbox-label" for="credits-label">
-                    <span>Credits</span>
-                    <img src="images/arrow.png" alt="">
-                </label>
-                <input type="checkbox" id="credits-label" class="toggle">
+        </div>
 
+
+        <div id="filter-menu">
+            <div id="filter-menu-top-bar">
+                <p>Filter</p>
+                <p>X</p>
+            </div>
+            <hr>
+            <div id="filter-menu-items">
                 <div>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value="">>=</option>
-                        <option value="">=</option>
-                        <option value=""><=</option>
-                    </select>
-    
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value="">1.0</option>
-                        <option value="">2.0</option>
-                        <option value="">3.0</option>
-                        <option value="">4.0</option>
-                    </select>
+                    <p>Credits</p>
+                    <div>
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">>=</option>
+                            <option value="">=</option>
+                            <option value=""><=</option>
+                        </select>
+        
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">1.0</option>
+                            <option value="">2.0</option>
+                            <option value="">3.0</option>
+                            <option value="">4.0</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <hr>
-
-            <input id="clear-filter-button" type="button" value="Clear Filter">
-        </form>
+                <hr>
+                <div>
+                    <p>Departments</p>
+                    <div id="filter-departments">
+    
+                    </div>
+                </div>
+            </ul>
+        </div>
     </nav>
     <div id="results">
         
