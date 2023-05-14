@@ -71,3 +71,7 @@ hr {
     font-weight: 300;
     color: var(--kinda-dark-red)
 }
+
+#close-filter-button {
+    cursor: pointer;
+}
