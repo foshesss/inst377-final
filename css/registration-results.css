@@ -210,6 +210,7 @@ label > img {
     padding: 1rem;
     padding-top: 0;
     gap: 1rem;
+    background: white;
 }
 
 .course-profile-restrictions, .course-profile-label {
