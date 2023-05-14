@@ -8,19 +8,22 @@
     padding: 2rem var(--hero-padding);
     height: 650px;
     gap: 1rem;
-    background: var(--light-grey);
 }
 
 #hero > h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    color: var(--darker-grey);
+    padding-bottom: .75rem;
+    text-align: center;
 }
 
 #register-now-img {
     display: block;
     width: 100%;
     max-width: 500px;
-    border-radius: 5px;
+    border-radius: 30px;
     margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
 }
 
 #register-for-classes {
@@ -40,6 +43,7 @@
 
 #hero > p {
     text-align: center;
+    font-weight: 300;
 }
 
 /* hero searhc bar */
@@ -48,7 +52,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 80px;
+    bottom: 115px;
     max-width: 500px;
     align-items: center;
 }
@@ -106,3 +110,10 @@ footer {
 }
 
 
+#hero-call-to-action {
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+    font-size: 1.15rem;
+    border-radius: 8px;
+    font-weight: 500;
+}

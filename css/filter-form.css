@@ -80,13 +80,3 @@ hr {
     font-weight: 300;
     color: var(--kinda-dark-red)
 }
-
-.selected-filter-button {
-    color: var(--white);
-    background: var(--kinda-dark-red);
-}
-
-.unselected-filter-button {
-    color: var(--kinda-dark-red);
-    background: var(--white);
-}

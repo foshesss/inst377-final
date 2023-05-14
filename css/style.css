@@ -37,3 +37,21 @@
 #nav-logo > img {
     max-width: 200px;
 }
+
+.call-to-action-button {
+    padding: .45rem .9rem;
+    font-size: .85rem;
+    border-radius: 100px;
+    border: 2px solid var(--kinda-dark-red);
+    font-weight: 600;
+}
+
+.selected-button {
+    color: var(--white);
+    background: var(--kinda-dark-red);
+}
+
+.unselected-button {
+    color: var(--kinda-dark-red);
+    background: var(--white);
+}
