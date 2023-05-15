@@ -90,7 +90,7 @@ const create_additional_info_html = (id) => {
         const value = relationships[key]
         if (value === null) continue;
 
-        html += `<p><b>${relationship_dict[key]}:</b><br>${value}</p><br>`;
+        html += `<p class="course-info-header">${relationship_dict[key]}:</p><p class="course-info-desc">${value}</p><br>`;
     }
 
     html = html === "" ? "No additional course information found." : html;
@@ -132,10 +132,12 @@ const create_list_elem = id => {
 
                     <p class="course-credits">Credits: ${credits}</p>
                 </div>
-                <div class="course-profile-restrictions">
-                    <h3>Additional Course Information</h3>
-                    <hr>
-                    ${create_additional_info_html(id)}
+                <div>
+                    <div class="course-profile-restrictions">
+                        <h3>Additional Course Information</h3>
+                        <hr>
+                        ${create_additional_info_html(id)}
+                    </div>
                 </div>
             </div>
         </div>

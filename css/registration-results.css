@@ -76,10 +76,12 @@ label > img {
 .map {
     display: none;
     min-height: 250px;
+    max-height: 250px;
     min-width: 250px;
+    max-width: 250px;
     overflow: hidden;
+    margin-left: auto;
     aspect-ratio: 1;
-    margin: 1rem auto;
 }
 
 .class-toggle {
@@ -142,6 +144,7 @@ label > img {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 100%;
 }
 
 .course-profile-header {
@@ -219,15 +222,31 @@ label > img {
 
 .course-profile-container {
     z-index: 7;
-    border: solid 1px white;
+    border: solid 1px var(--white);
     width: calc(100% * var(--num-cells) + var(--gap-size) * (var(--num-cells) - 1));
+    outline: 5px solid var(--white);
 }
 
 .course-general-info {
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
 }
 
+
+.course-info-header {
+    font-weight: bold;
+}
+
+.course-info-desc {
+    font-weight: 300;
+    color: var(--darker-grey);
+}
+
+.course-profile-restrictions > hr {
+    margin: .5rem 0;
+    border-color: var(--red);
+    border-width: .5px;
+}
 
 
 @media screen and (min-width: 700px) {
@@ -253,6 +272,7 @@ label > img {
         padding: 1rem;
         min-width: 250px;
         max-width: 250px;
+        height: calc(100% - 2rem)
     }
 }
 
