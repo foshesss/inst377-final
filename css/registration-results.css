@@ -216,7 +216,7 @@ label > img {
     background: white;
 }
 
-.course-profile-restrictions, .course-profile-label {
+.course-profile-restrictions {
     display: none;
 }
 
@@ -248,16 +248,16 @@ label > img {
     border-width: .5px;
 }
 
+.course-profile-label {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 
 @media screen and (min-width: 700px) {
     #results > ul {
         --num-cells: 2;
-    }
-
-    .course-profile-label {
-        display: inline-block;
-        font-size: 2rem;
-        font-weight: bold;
     }
     
     .course-sections {
