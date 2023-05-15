@@ -292,6 +292,7 @@ const main = async() => {
     search_bar.value = last_query
     make_search(last_query)
 
+    const body = document.querySelector("body")
     
     const filter_button = document.getElementById("filter-menu-button");
     const toggle_filter_form = (turn_on) => {
@@ -299,14 +300,14 @@ const main = async() => {
             filter_form.style.display = "flex";
             filter_button.classList.add("selected-button");
             filter_button.classList.remove("unselected-button");
-            loaded_elem.style.overflow = "hidden";
-            loaded_elem.style.height = "100vh";
+            body.style.overflow = "hidden";
+            body.style.height = "100vh";
         } else {
             filter_button.classList.remove("selected-button");
             filter_button.classList.add("unselected-button");
             filter_form.style.display = "none";
-            loaded_elem.style.overflow = "auto";
-            loaded_elem.style.height = "none";
+            body.style.overflow = null;
+            body.style.height = null;
         }
     }
 
